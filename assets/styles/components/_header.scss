@@ -1,0 +1,112 @@
+.header-menu{
+    display:  inline-block;
+    position: relative;
+    height: 100px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px 0;
+    background-color: $first-background-color;
+    z-index: 1000;
+}
+
+.logo-menu{
+    display: inline-block;
+    position: relative;
+    margin-top: 15px 5px;
+    width: 250px;
+    height: auto;
+}
+
+//menu nav
+.menu-nav{
+    display: inline-block;
+    position: absolute;
+    padding: 0px;
+    right: 340px;
+}
+
+.menu-nav__li-menu-nav{
+    display: inline-block;
+    margin: 0;
+    padding: 10px 0 30px 0;
+    vertical-align: top;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.menu-nav__li-menu-nav a{
+    padding: 0px 20px;
+    margin-bottom: 100px;
+    vertical-align: center;  
+    text-decoration: none;
+    color: $primary-font-color;
+}
+
+.menu-nav__li-menu-nav a:hover{
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.how-to-care-menu, .health-and-beauty-menu{
+    display: block;
+    position: absolute;
+    padding: 0;
+    margin: 10px 0;
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+
+    visibility:visible;
+    transform:scaleY(0);
+    transform-origin:50% 0;
+    transition: 0.5s;
+}
+
+.how-to-care:hover .how-to-care-menu,
+.health-and-beauty:hover .health-and-beauty-menu{
+    visibility: visible;
+    transform:scaleY(1);
+}
+
+.menu-nav__nav-roll{
+    display: block;
+    position: relative;
+    padding: 15px 25px;
+    margin: 0;
+    text-decoration: none;
+    font-size: 20px;
+    color: $primary-font-color;
+    z-index: 1000;        
+}
+.menu-nav__nav-roll:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.menu-nav__nav-roll:hover a{
+    color: $secondary-font-color;
+    transition: color 0.2s ease-in-out;
+}
+
+
+//search input
+.header-menu__search-menu{
+    position:relative;
+    float: right;
+    padding-top: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+}
+
+.search-menu__input[aria-label="search-aria-label"]{
+padding: 14px 12px 14px 50px;
+width: 300px;
+background: url(../images/search.png) no-repeat scroll 9px 9px;
+}
+
+.search-menu__input[aria-label="search-aria-label"]:focus{
+    outline: none
+}
+
+
+

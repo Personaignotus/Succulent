@@ -1,0 +1,56 @@
+.introduction{
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 20px 100px 20px;
+
+    .introduction-heading{
+        display: block;
+        margin: auto;
+        padding-top: 50px;
+        opacity: 0.8;
+    }
+
+    // .introduction-paragraph{
+    //     text-align: justify;
+    //     font-size: 24px;
+    //     line-height: 34px;
+    // }
+
+    .paragraph-one{
+        margin: 0;
+        padding: 15px 0;
+    }
+
+    .introduction-ctn{
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        font-size: 0;
+
+        .paragraph-two{
+            display: inline-block;
+            width: 65%;
+            margin: 0;
+            padding-top: 30px ;
+            padding-right: 60px;
+            vertical-align: top;
+        }
+        .picture-plants-box{
+            display: inline-block;
+            width: 35%;
+            margin: 0;
+            padding-right: 30px;
+            text-align:center;
+            vertical-align: top;
+
+            .picture-plants{
+                height: 500px;
+                width: auto;
+                padding: 0;
+                margin: 0;
+            }
+        }
+    }
+}
+

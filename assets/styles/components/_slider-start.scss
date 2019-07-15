@@ -1,0 +1,137 @@
+.slider-container{
+    position: relative;
+    margin-top: 30px;
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+    z-index: 999;
+}
+
+.slider__slide{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+    
+.slider__slide-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.slider__slide-span {
+    margin: 0;
+    line-height: 50px;
+    font-size: 34px;
+    font-family: 'Poiret One', cursive;
+    color: $secondary-font-color;
+}
+
+.slide1{
+    background-image: url("../images/slide1.jpg");
+
+    .slider__slide-content{
+        padding: 350px 800px 200px 0;
+    }
+}
+
+.slide2{
+    background-image: url("../images/slide2.jpg");
+    
+    .slider__slide-content{
+    padding: 100px 600px 600px 0px;
+    }
+}
+
+.slide3{
+    background-image: url("../images/slide3.jpg");
+    
+    .slider__slide-content{
+    padding: 460px 0px 160px 860px;
+    }
+}
+
+.slide4{
+    background-image: url("../images/slide4.jpg");
+
+    .slider__slide-content{
+    // padding: 160px 0px 480px 665px;
+    padding: 300px;
+    }
+}
+
+.slider-container__arrow{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -35px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    opacity: 0.2;
+}
+
+.slider-container__arrow:hover{
+    opacity: 0.6;
+    transition: opacity 0.3s ease-in-out;
+}
+
+#arrow-left{
+    border-width: 30px 40px 30px 0;
+    border-color: transparent #fff transparent
+    transparent;
+    left: 0;
+    margin-left: 30px;
+}
+
+#arrow-right{
+    border-width: 30px 0 30px 40px;
+    border-color: transparent transparent
+    transparent #fff;
+    right: 0;
+    margin-right: 30px;
+}
+
+.button-slider-menu{
+    z-index: 1000;
+    position: absolute;
+    left:0;
+    bottom:1.5rem;
+    margin:0;
+    padding:0;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    list-style:none;
+}
+
+.button-slider-menu__button-dot-element{
+    background: transparent;
+    width: 2rem;
+    height: 2rem;
+    border: 0;
+    text-indent: -999px;
+    overflow: hidden;
+    position: relative;
+}
+
+.button-slider-menu__button-dot{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    outline: none;
+    opacity: 0.2;
+    transition: opacity 0.6s ease;
+}
+
+.button-dot-active{
+    // opacity: 1;
+    background-color: blue;
+}

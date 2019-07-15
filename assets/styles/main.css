@@ -1,0 +1,1086 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0; }
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block; }
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent; }
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */ }
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder; }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -0.25em; }
+
+sup {
+  top: -0.5em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */ }
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible; }
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none; }
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; }
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em; }
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */ }
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline; }
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto; }
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */ }
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */ }
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block; }
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item; }
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none; }
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none; }
+
+.preload {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 10000;
+  visibility: hidden;
+  opacity: 0;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  background-color: #ffffff;
+  transition: opacity 400ms ease-in-out, visibility 0s 400ms; }
+
+.show-preloader {
+  visibility: visible;
+  opacity: 1; }
+
+.circle {
+  background-color: #e9e4e8;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  animation: bounce-circles 0.7s infinite ease-in-out; }
+
+.preload .circle:nth-child(1) {
+  animation-delay: -0.6s; }
+
+.preload .circle:nth-child(2) {
+  animation-delay: -0.5s; }
+
+.preload .circle:nth-child(3) {
+  animation-delay: -0.4s; }
+
+.preload .circle:nth-child(4) {
+  animation-delay: -0.3s; }
+
+@keyframes bounce-circles {
+  0%, 40%, 100% {
+    transform: translateY(-10px); }
+  20% {
+    transform: translateY(-20px); } }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+  line-height: 32px;
+  font-family: 'Montserrat', sans-serif;
+  color: #1b1b1b;
+  background-color: #ffffff; }
+
+.main-content {
+  display: block;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0; }
+
+.btn-introduction {
+  display: block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin: auto;
+  margin-top: 40px;
+  padding: 0;
+  opacity: 0.4;
+  z-index: 2;
+  background-image: url("../images/scroll-down.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-weight: bold;
+  font-size: 0;
+  cursor: pointer; }
+
+.btn-introduction:hover {
+  opacity: 1;
+  transition: 0.4s ease-in-out; }
+
+.scroll-to-top {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  width: 120px;
+  height: auto;
+  z-index: 1; }
+
+.scroll-to-top__btn-scroll-to-top {
+  display: block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  padding: 0;
+  margin: 0 auto;
+  opacity: 0.4;
+  z-index: 2;
+  background-image: url("../images/scroll-up.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-weight: bold;
+  font-size: 0;
+  cursor: pointer; }
+
+.scroll-to-top__btn-scroll-to-top:hover {
+  opacity: 1;
+  transition: 0.4s ease-in-out; }
+
+.scroll-to-top__text-scroll-to-top {
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+  color: #d4d4d4;
+  font-family: 'Alegreya', serif; }
+
+*, *::before, *::after {
+  box-sizing: border-box; }
+
+/* Change Autocomplete styles in Chrome*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  transition: background-color 5000s ease-in-out 0s; }
+
+.slider-container {
+  position: relative;
+  margin-top: 30px;
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+  z-index: 999; }
+
+.slider__slide {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center; }
+
+.slider__slide-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: start; }
+
+.slider__slide-span {
+  margin: 0;
+  line-height: 50px;
+  font-size: 34px;
+  font-family: 'Poiret One', cursive;
+  color: #ffffff; }
+
+.slide1 {
+  background-image: url("../images/slide1.jpg"); }
+  .slide1 .slider__slide-content {
+    padding: 350px 800px 200px 0; }
+
+.slide2 {
+  background-image: url("../images/slide2.jpg"); }
+  .slide2 .slider__slide-content {
+    padding: 100px 600px 600px 0px; }
+
+.slide3 {
+  background-image: url("../images/slide3.jpg"); }
+  .slide3 .slider__slide-content {
+    padding: 460px 0px 160px 860px; }
+
+.slide4 {
+  background-image: url("../images/slide4.jpg"); }
+  .slide4 .slider__slide-content {
+    padding: 300px; }
+
+.slider-container__arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  margin-top: -35px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  opacity: 0.2; }
+
+.slider-container__arrow:hover {
+  opacity: 0.6;
+  transition: opacity 0.3s ease-in-out; }
+
+#arrow-left {
+  border-width: 30px 40px 30px 0;
+  border-color: transparent #fff transparent transparent;
+  left: 0;
+  margin-left: 30px; }
+
+#arrow-right {
+  border-width: 30px 0 30px 40px;
+  border-color: transparent transparent transparent #fff;
+  right: 0;
+  margin-right: 30px; }
+
+.button-slider-menu {
+  z-index: 1000;
+  position: absolute;
+  left: 0;
+  bottom: 1.5rem;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  list-style: none; }
+
+.button-slider-menu__button-dot-element {
+  background: transparent;
+  width: 2rem;
+  height: 2rem;
+  border: 0;
+  text-indent: -999px;
+  overflow: hidden;
+  position: relative; }
+
+.button-slider-menu__button-dot {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border-color: rgba(255, 255, 255, 0);
+  cursor: pointer;
+  outline: none;
+  opacity: 0.2;
+  transition: opacity 0.6s ease; }
+
+.button-dot-active {
+  background-color: blue; }
+
+h1 {
+  font-family: 'Alegreya', serif;
+  color: #ffffff;
+  margin: 0;
+  line-height: 80px;
+  font-size: 66px; }
+
+h2 {
+  text-align: left;
+  font-weight: bold;
+  font-family: 'Poiret One', cursive;
+  color: #1b1b1b;
+  margin: 0;
+  line-height: 80px;
+  font-size: 48px; }
+
+h3 {
+  text-align: left;
+  font-weight: 1000;
+  font-family: 'Poiret One', cursive;
+  color: #1b1b1b;
+  margin: 0;
+  line-height: 40px;
+  font-size: 36px; }
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 17px;
+  font-weight: 100;
+  text-transform: uppercase; }
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  text-align: justify;
+  font-size: 18px;
+  line-height: 35px; }
+
+.separator {
+  background-color: #1b1b1b;
+  width: 60px;
+  height: 4px;
+  margin: 20px 0;
+  padding: 0; }
+
+footer {
+  display: block;
+  position: relative;
+  height: 500px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 50px;
+  text-align: center;
+  font-size: 22px;
+  color: #1b1b1b;
+  background-color: #e9e4e8; }
+  footer .social-media {
+    padding: 30px 0;
+    margin: 0 auto;
+    width: 600px; }
+    footer .social-media .follow-social {
+      text-align: center;
+      font-family: 'Alegreya', serif; }
+  footer .social-media figure {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0; }
+    footer .social-media figure .img-social-media {
+      display: inline-block;
+      margin: 0 auto;
+      width: 50px;
+      height: auto;
+      cursor: pointer; }
+    footer .social-media figure .img-social-media:hover {
+      opacity: 0.5; }
+    footer .social-media figure .figcaption-social-media {
+      padding-top: 10px;
+      font-size: 14px;
+      font-weight: bold;
+      cursor: pointer; }
+  footer .footer-hr {
+    width: 800px; }
+  footer .footer-txt {
+    padding: 30px 0;
+    text-align: center; }
+
+.header-menu {
+  display: inline-block;
+  position: relative;
+  height: 100px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 15px 0;
+  background-color: #ffffff;
+  z-index: 1000; }
+
+.logo-menu {
+  display: inline-block;
+  position: relative;
+  margin-top: 15px 5px;
+  width: 250px;
+  height: auto; }
+
+.menu-nav {
+  display: inline-block;
+  position: absolute;
+  padding: 0px;
+  right: 340px; }
+
+.menu-nav__li-menu-nav {
+  display: inline-block;
+  margin: 0;
+  padding: 10px 0 30px 0;
+  vertical-align: top;
+  text-align: center;
+  text-decoration: none;
+  font-size: 22px;
+  cursor: pointer; }
+
+.menu-nav__li-menu-nav a {
+  padding: 0px 20px;
+  margin-bottom: 100px;
+  vertical-align: center;
+  text-decoration: none;
+  color: #1b1b1b; }
+
+.menu-nav__li-menu-nav a:hover {
+  color: rgba(0, 0, 0, 0.3); }
+
+.how-to-care-menu, .health-and-beauty-menu {
+  display: block;
+  position: absolute;
+  padding: 0;
+  margin: 10px 0;
+  list-style: none;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  visibility: visible;
+  transform: scaleY(0);
+  transform-origin: 50% 0;
+  transition: 0.5s; }
+
+.how-to-care:hover .how-to-care-menu,
+.health-and-beauty:hover .health-and-beauty-menu {
+  visibility: visible;
+  transform: scaleY(1); }
+
+.menu-nav__nav-roll {
+  display: block;
+  position: relative;
+  padding: 15px 25px;
+  margin: 0;
+  text-decoration: none;
+  font-size: 20px;
+  color: #1b1b1b;
+  z-index: 1000; }
+
+.menu-nav__nav-roll:hover {
+  background-color: rgba(0, 0, 0, 0.4); }
+
+.menu-nav__nav-roll:hover a {
+  color: #ffffff;
+  transition: color 0.2s ease-in-out; }
+
+.header-menu__search-menu {
+  position: relative;
+  float: right;
+  padding-top: 20px;
+  padding-right: 20px;
+  font-size: 18px; }
+
+.search-menu__input[aria-label="search-aria-label"] {
+  padding: 14px 12px 14px 50px;
+  width: 300px;
+  background: url(../images/search.png) no-repeat scroll 9px 9px; }
+
+.search-menu__input[aria-label="search-aria-label"]:focus {
+  outline: none; }
+
+.introduction {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 20px 100px 20px; }
+  .introduction .introduction-heading {
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+    opacity: 0.8; }
+  .introduction .paragraph-one {
+    margin: 0;
+    padding: 15px 0; }
+  .introduction .introduction-ctn {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 0; }
+    .introduction .introduction-ctn .paragraph-two {
+      display: inline-block;
+      width: 65%;
+      margin: 0;
+      padding-top: 30px;
+      padding-right: 60px;
+      vertical-align: top; }
+    .introduction .introduction-ctn .picture-plants-box {
+      display: inline-block;
+      width: 35%;
+      margin: 0;
+      padding-right: 30px;
+      text-align: center;
+      vertical-align: top; }
+      .introduction .introduction-ctn .picture-plants-box .picture-plants {
+        height: 500px;
+        width: auto;
+        padding: 0;
+        margin: 0; }
+
+.main-content-gallery {
+  padding: 50px 200px;
+  margin: 0 auto; }
+
+.gallery {
+  display: grid;
+  grid-template-rows: repeat(7, 290px);
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px; }
+
+.gallery__photo-box {
+  display: flex;
+  transition: all ease-in-out 300ms;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  cursor: pointer; }
+
+.square {
+  grid-row: span 1;
+  grid-column: span 1; }
+
+.big {
+  grid-row: span 2;
+  grid-column: span 2; }
+
+.wide {
+  grid-row: span 1;
+  grid-column: span 2; }
+
+.tall {
+  grid-row: span 2;
+  grid-column: span 1; }
+
+.gallery__photo-1 {
+  background-image: url("../images/gallery/photo-1.jpg"); }
+
+.gallery__photo-2 {
+  background-image: url("../images/gallery/photo-2.jpg"); }
+
+.gallery__photo-3 {
+  background-image: url("../images/gallery/photo-3.jpg"); }
+
+.gallery__photo-4 {
+  background-image: url("../images/gallery/photo-4.jpg"); }
+
+.gallery__photo-5 {
+  background-image: url("../images/gallery/photo-5.jpg"); }
+
+.gallery__photo-6 {
+  background-image: url("../images/gallery/photo-6.jpg"); }
+
+.gallery__photo-7 {
+  background-image: url("../images/gallery/photo-7.jpg"); }
+
+.gallery__photo-8 {
+  background-image: url("../images/gallery/photo-8.jpg"); }
+
+.gallery__photo-9 {
+  background-image: url("../images/gallery/photo-9.jpg"); }
+
+.gallery__photo-10 {
+  background-image: url("../images/gallery/photo-10.jpg"); }
+
+.gallery__photo-11 {
+  background-image: url("../images/gallery/photo-11.jpg"); }
+
+.gallery__photo-12 {
+  background-image: url("../images/gallery/photo-12.jpg"); }
+
+.gallery__photo-13 {
+  background-image: url("../images/gallery/photo-13.jpg"); }
+
+.gallery__photo-14 {
+  background-image: url("../images/gallery/photo-14.jpg"); }
+
+.gallery__photo-15 {
+  background-image: url("../images/gallery/photo-15.jpg"); }
+
+.gallery__photo-16 {
+  background-image: url("../images/gallery/photo-16.jpg"); }
+
+.gallery__photo-17 {
+  background-image: url("../images/gallery/photo-17.jpg"); }
+
+.gallery__photo-18 {
+  background-image: url("../images/gallery/photo-18.jpg"); }
+
+.gallery__photo-19 {
+  background-image: url("../images/gallery/photo-19.jpg"); }
+
+.gallery__photo-20 {
+  background-image: url("../images/gallery/photo-20.jpg"); }
+
+.gallery__photo-21 {
+  background-image: url("../images/gallery/photo-21.jpg"); }
+
+.gallery__photo-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all ease-in-out 300ms;
+  position: relative;
+  width: 100%;
+  height: 100%; }
+
+.gallery__photo-inner:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: 0.6s ease-in-out; }
+
+.gallery__photo-inner:hover .gallery__photo-title {
+  display: block;
+  visibility: visible;
+  opacity: 1; }
+
+.gallery__photo-content {
+  display: block;
+  position: relative;
+  max-width: 100%;
+  max-height: 100%;
+  padding: 40px; }
+
+.gallery__photo-text {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center; }
+
+.gallery__photo-title {
+  display: block;
+  position: relative;
+  padding: 15px 20px;
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #ffffff;
+  opacity: 0;
+  transition: opacity 0.8s; }
+
+.how-to-care-about-care {
+  display: block;
+  position: relative;
+  padding: 0;
+  margin-top: 250px;
+  background-color: #d9e6e0;
+  font-size: 0; }
+  .how-to-care-about-care .about-care-content {
+    display: inline-block;
+    padding-top: 150px;
+    width: 60%;
+    float: left; }
+    .how-to-care-about-care .about-care-content .about-care-title {
+      padding: 0;
+      margin: 0; }
+    .how-to-care-about-care .about-care-content .separator {
+      background-color: #ffffff; }
+  .how-to-care-about-care p {
+    padding-top: 20px;
+    padding-right: 150px;
+    margin: 0; }
+  .how-to-care-about-care .about-care-picture {
+    display: inline-block;
+    width: 40%;
+    margin: 0;
+    padding: 0; }
+    .how-to-care-about-care .about-care-picture img {
+      display: inline-block;
+      width: 100%; }
+
+.how-to-care-transplanting {
+  display: block;
+  position: relative;
+  padding: 280px 0;
+  margin: 0;
+  font-size: 0; }
+  .how-to-care-transplanting .transplanting-picture {
+    display: inline-block;
+    width: 40%;
+    margin: 0;
+    padding: 200px 0; }
+    .how-to-care-transplanting .transplanting-picture img {
+      width: 100%;
+      margin: 0;
+      padding: 0; }
+  .how-to-care-transplanting .transplanting-content {
+    width: 60%;
+    float: right;
+    padding-top: 80px;
+    padding-left: 200px;
+    margin: 0; }
+    .how-to-care-transplanting .transplanting-content p {
+      padding: 20px 0;
+      margin: 0; }
+
+.how-to-care-water {
+  display: block;
+  position: relative;
+  padding: 200px 0;
+  margin: 0;
+  font-size: 0;
+  background-color: #e9e4e8; }
+  .how-to-care-water .water-content {
+    display: inline-block;
+    width: 50%;
+    padding-right: 200px;
+    margin: 0;
+    font-size: 0; }
+    .how-to-care-water .water-content .separator {
+      background-color: #1b1b1b; }
+    .how-to-care-water .water-content p {
+      margin: 0;
+      padding: 20px 0; }
+  .how-to-care-water .water-picture {
+    display: block;
+    position: relative;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    float: right; }
+    .how-to-care-water .water-picture img {
+      width: 80%;
+      margin: 0;
+      padding: 0; }
+
+.how-to-care-diseases {
+  display: block;
+  position: relative;
+  padding: 280px 0;
+  margin: 0;
+  font-size: 0; }
+  .how-to-care-diseases .diseases-picture {
+    display: inline-block;
+    width: 40%;
+    margin: 0;
+    padding: 200px 0; }
+    .how-to-care-diseases .diseases-picture img {
+      width: 100%;
+      margin: 0;
+      padding: 0; }
+  .how-to-care-diseases .diseases-content {
+    width: 60%;
+    float: right;
+    padding-top: 80px;
+    padding-left: 200px;
+    margin: 0; }
+    .how-to-care-diseases .diseases-content p {
+      padding: 20px 0;
+      margin: 0; }
+
+.how-to-care-fertilization {
+  display: block;
+  position: relative;
+  padding: 100px 0;
+  margin: 0;
+  font-size: 0; }
+  .how-to-care-fertilization .fertilization-content {
+    padding: 20px 0;
+    margin: 0; }
+    .how-to-care-fertilization .fertilization-content p {
+      padding: 20px 0;
+      margin: 0; }
+  .how-to-care-fertilization .fertilization-boxes {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin: 50px auto;
+    padding: 10px 0; }
+    .how-to-care-fertilization .fertilization-boxes .fertilization-box {
+      display: inline-block;
+      border: 1px #1b1b1b solid;
+      width: 30%;
+      margin: auto;
+      height: 400px;
+      width: 400px;
+      text-align: center; }
+    .how-to-care-fertilization .fertilization-boxes h3 {
+      display: inline-block;
+      padding-top: 40px;
+      padding-bottom: 20px;
+      text-align: justify; }
+    .how-to-care-fertilization .fertilization-boxes p {
+      padding: 10px 40px;
+      margin: 0 auto;
+      font-size: 16px; }
+    .how-to-care-fertilization .fertilization-boxes .cactus-box-picture {
+      margin: 0 auto;
+      padding: 0px;
+      width: 50%;
+      height: 50%;
+      bottom: 0; }
+      .how-to-care-fertilization .fertilization-boxes .cactus-box-picture img {
+        padding-right: 20px; }
+
+.how-to-care-disease {
+  display: block;
+  position: relative;
+  padding: 280px 0;
+  margin: 0;
+  font-size: 0; }
+  .how-to-care-disease .disease-picture {
+    display: inline-block;
+    width: 40%;
+    margin: 0;
+    padding: 200px 0; }
+    .how-to-care-disease .disease-picture img {
+      width: 100%;
+      margin: 0;
+      padding: 0; }
+  .how-to-care-disease .disease-content {
+    width: 60%;
+    float: right;
+    padding-top: 80px;
+    padding-left: 200px;
+    margin: 0; }
+    .how-to-care-disease .disease-content p {
+      padding: 20px 0;
+      margin: 0; }
