@@ -10,62 +10,77 @@
 
 
 
+// slider-start
+let sliderImages = document.querySelectorAll('.slider__slide');
+let arrowLeft = document.querySelector('#arrow-left');
+let arrowRight = document.querySelector('#arrow-right');
+let currentSlide = 0;
 
-
-
-let carousels = document.getElementByClassName('slider-container');
-[].forEach(carousels, function(c)){
-    let next = c.getElementByClassName
+const reset = function(){
+    for (let i = 0; i < sliderImages.length; i++){
+        sliderImages[i].style.display = 'none';
+    }
 }
 
+const startSlide = function() {
+    reset();
+    sliderImages[0].style.display = 'block';
+}
+
+const slideLeft = function(){
+    reset();
+    sliderImages[currentSlide-1].style.display = 'block';
+    currentSlide--;
+}
+
+const slideRight = function(){
+    reset();
+    sliderImages[currentSlide+1].style.display = 'block';
+    currentSlide++;
+}
+
+arrowLeft.addEventListener('click', function(){
+    if (currentSlide === 0){
+        currentSlide = sliderImages.length;
+    }
+    slideLeft();
+});
+
+arrowRight.addEventListener('click', function(){
+    if (currentSlide === sliderImages.length-1){
+        currentSlide = -1;
+    }
+    slideRight();
+});
 
 
+let dots = document.querySelectorAll('.button-slider-menu__button-dot');
+let slideIndex = 0;
+
+const showSlides = function(){
+
+    for(let i=0 ; i < sliderImages.length; i++){
+        sliderImages[i].style.display = 'none';
+    }
+
+    slideIndex++;
+
+    if(slideIndex > sliderImages.lenght){
+        slideIndex = 1;
+    }
+
+    for(let i=0; i < dots.lenght; i++){
+        dots[i].className = dots[i].className.replace(' button-dot-active', '');
+    }
+
+    sliderImages[slideIndex - 1].style.display = 'block';
+    dots[slideIndex - 1].className += ' button-dot-active';
+    setTimeout( showSlides , 1000);
+};
+
+showSlides();
 
 
-
-// slider-start
-// let sliderImages = document.querySelectorAll('.slider__slide');
-// let arrowLeft = document.querySelector('#arrow-left');
-// let arrowRight = document.querySelector('#arrow-right');
-// let currentSlide = 0;
-// let sliderDots = document.querySelectorAll('button-slider-menu__button-dot');
-
-// const reset = function(){
-//     for (let i = 0; i < sliderImages.length; i++){
-//         sliderImages[i].style.display = 'none';
-//     }
-// }
-
-// const startSlide = function() {
-//     reset();
-//     sliderImages[0].style.display = 'block';
-// }
-
-// const slideLeft = function(){
-//     reset();
-//     sliderImages[currentSlide-1].style.display = 'block';
-//     currentSlide--;
-// }
-
-// const slideRight = function(){
-//     reset();
-//     sliderImages[currentSlide+1].style.display = 'block';
-//     currentSlide++;
-// }
-
-// arrowLeft.addEventListener('click', function(){
-//     if (currentSlide === 0){
-//         currentSlide = sliderImages.length;
-//     }
-//     slideLeft();
-// });
-
-// arrowRight.addEventListener('click', function(){
-//     if (currentSlide === sliderImages.length-1){
-//         currentSlide = -1;
-//     }
-//     slideRight();
-// });
 
 
 //scroll-to-top
