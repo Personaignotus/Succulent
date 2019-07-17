@@ -106,7 +106,7 @@ transition: 0.4s ease-in-out;
     z-index: 1;
 }
 
-.scroll-to-top__btn-scroll-to-top{
+.scroll-to-top__btn{
     display: block;
     position: relative;
     width: 80px;
@@ -123,12 +123,12 @@ transition: 0.4s ease-in-out;
     cursor: pointer;
 }
     
-.scroll-to-top__btn-scroll-to-top:hover{
+.scroll-to-top__btn:hover{
     opacity: 1;
     transition: 0.4s ease-in-out;
 }
 
-.scroll-to-top__text-scroll-to-top{
+.scroll-to-top__text{
     display: block;
     text-align: center;
     padding: 10px 0;
