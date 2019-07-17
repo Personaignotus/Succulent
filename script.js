@@ -9,86 +9,138 @@
 // });
 
 
-
-// slider-start
+//slider
 let sliderImages = document.querySelectorAll('.slider__slide');
-let arrowLeft = document.querySelector('#arrow-left');
-let arrowRight = document.querySelector('#arrow-right');
-let currentSlide = 0;
+let arrowLeft = document.querySelector('.arrow-left');
+let arrowRight = document.querySelector('.arrow-right');
+let dots = document.querySelectorAll('.button-slider-menu__button-dot');
 
-const reset = function(){
+const resetImages = function(){
     for (let i = 0; i < sliderImages.length; i++){
         sliderImages[i].style.display = 'none';
     }
-}
+};
 
+const resetDots = function(){
+    for (let i = 0; i < dots.length; i++){
+        dots[i].classList.remove('active-dot');
+        }
+    };
+
+// start-slider
 const startSlide = function() {
-    reset();
+    resetImages();
     sliderImages[0].style.display = 'block';
-}
+    resetDots();
+    dots[0].classList.add('active-dot');
+};
 
-const slideLeft = function(){
-    reset();
-    sliderImages[currentSlide-1].style.display = 'block';
-    currentSlide--;
-}
+startSlide();
 
-const slideRight = function(){
-    reset();
-    sliderImages[currentSlide+1].style.display = 'block';
-    currentSlide++;
-}
-
+//arrows-slider
 arrowLeft.addEventListener('click', function(){
-    if (currentSlide === 0){
-        currentSlide = sliderImages.length;
+    if(sliderImages[0].style.display === 'block'){
+        resetDots();
+        dots[3].classList.add('active-dot');
+        resetImages();
+        sliderImages[3].style.display = 'block';
+    } else if(sliderImages[1].style.display === 'block'){
+        resetDots();
+        dots[0].classList.add('active-dot');
+        resetImages();
+        sliderImages[0].style.display = 'block';
+    } else if(sliderImages[2].style.display === 'block'){
+        resetDots();
+        dots[1].classList.add('active-dot');
+        resetImages();
+        sliderImages[1].style.display = 'block';
+    } else if(sliderImages[3].style.display === 'block'){
+        resetDots();
+        dots[2].classList.add('active-dot');
+        resetImages();
+        sliderImages[2].style.display = 'block';
     }
-    slideLeft();
 });
 
 arrowRight.addEventListener('click', function(){
-    if (currentSlide === sliderImages.length-1){
-        currentSlide = -1;
+    if(sliderImages[0].style.display === 'block'){
+        resetDots();
+        dots[1].classList.add('active-dot');
+        resetImages();
+        sliderImages[1].style.display = 'block';
+    } else if(sliderImages[1].style.display === 'block'){
+        resetDots();
+        dots[2].classList.add('active-dot');
+        resetImages();
+        sliderImages[2].style.display = 'block';
+    } else if(sliderImages[2].style.display === 'block'){
+        resetDots();
+        dots[3].classList.add('active-dot');
+        resetImages();
+        sliderImages[3].style.display = 'block';
+    } else if(sliderImages[3].style.display === 'block'){
+        resetDots();
+        dots[0].classList.add('active-dot');
+        resetImages();
+        sliderImages[0].style.display = 'block';
     }
-    slideRight();
 });
 
 
-let dots = document.querySelectorAll('.button-slider-menu__button-dot');
-let slideIndex = 0;
+//dots-slider
+dots[0].addEventListener('click', function(){
+    resetDots();
+    dots[0].classList.add('active-dot');
+    resetImages();
+    sliderImages[0].style.display = 'block';
+});
 
-const showSlides = function(){
+dots[1].addEventListener('click', function(){
+    resetDots();
+    dots[1].classList.add('active-dot');
+    resetImages();
+    sliderImages[1].style.display = 'block';
+});
 
-    for(let i=0 ; i < sliderImages.length; i++){
-        sliderImages[i].style.display = 'none';
+dots[2].addEventListener('click', function(){
+    resetDots();
+    dots[2].classList.add('active-dot');
+    resetImages();
+    sliderImages[2].style.display = 'block';
+});
+
+dots[3].addEventListener('click', function(){
+    resetDots();
+    dots[3].classList.add('active-dot');
+    resetImages();
+    sliderImages[3].style.display = 'block';
+});
+
+
+//automat-slider
+var slideIndex = 0;
+
+function showSlides() {
+    for (let i = 0; i < sliderImages.length; i++) {
+    sliderImages[i].style.display = "none"; 
+    dots[i].classList.remove('active-dot');
     }
-
     slideIndex++;
-
-    if(slideIndex > sliderImages.lenght){
-        slideIndex = 1;
-    }
-
-    for(let i=0; i < dots.lenght; i++){
-        dots[i].className = dots[i].className.replace(' button-dot-active', '');
-    }
-
-    sliderImages[slideIndex - 1].style.display = 'block';
-    dots[slideIndex - 1].className += ' button-dot-active';
-    setTimeout( showSlides , 1000);
+    if (slideIndex > sliderImages.length) {slideIndex = 1} 
+    sliderImages[slideIndex-1].style.display = "block"; 
+    dots[slideIndex-1].classList.add('active-dot');
+    setTimeout(showSlides, 5000);
 };
 
 showSlides();
 
 
-
-
 //scroll-to-top
-var scrollToTopTriggers = document.querySelectorAll('.btn-scroll-to-top');
+var scrollToTopTriggers = document.querySelectorAll('.scroll-to-top__btn');
 for (var i = 0; i < scrollToTopTriggers.length; i++) {
     scrollToTopTriggers[i].addEventListener('click', function(event) {
         var doc = document.documentElement;
-        var top = (window.pageYOffset || doc.scrollTop) - (doc.clientTop || 0);
+        var top = (window.pageYOffset || doc.scrollTop)  - (doc.clientTop || 0);
         easyScroll({
             'scrollableDomEle': window,
             'direction': 'top',

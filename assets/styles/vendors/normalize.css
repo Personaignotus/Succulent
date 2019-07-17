@@ -70,7 +70,7 @@ pre {
    ========================================================================== */
 
 /**
- * Remove the gray background on active links in IE 10.
+ * Remove the gray background on active-dot links in IE 10.
  */
 
 a {
@@ -310,7 +310,7 @@ textarea {
   font: inherit; /* 2 */
 }
 
-/* Interactive
+/* Interactive-dot
    ========================================================================== */
 
 /*
