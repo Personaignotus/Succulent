@@ -56,6 +56,7 @@
     list-style: none;
     background-color: rgba(233, 228, 232, 0.7);
     z-index: 1000;
+    scroll-behavior: smooth;
 
     visibility:visible;
     transform:scaleY(0);
@@ -72,12 +73,13 @@
 .menu-nav__nav-roll{
     display: block;
     position: relative;
-    padding: 15px 25px;
+    padding: 5px 20px;
     margin: 0;
     text-decoration: none;
     font-size: 20px;
     color: $primary-font-color;
-    z-index: 1000;        
+    z-index: 1000;
+    scroll-behavior: smooth; 
 }
 .menu-nav__nav-roll:hover{
     background-color: rgba(0, 0, 0, 0.2);
