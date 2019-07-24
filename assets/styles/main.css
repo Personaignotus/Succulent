@@ -919,135 +919,110 @@ footer {
   opacity: 0;
   transition: opacity 0.8s; }
 
-.how-to-care-introduction {
+.about-care__introduction {
   display: flex;
   position: relative;
   padding: 0;
   margin-top: 250px;
   background-color: #d9e6e0;
   font-size: 0; }
-  .how-to-care-introduction .about-care-content {
+  .about-care__introduction .about-care__content {
     display: inline-block;
     padding-top: 150px;
     width: 60%;
     float: left; }
-    .how-to-care-introduction .about-care-content .about-care-title {
+    .about-care__introduction .about-care__content .about-care__title {
       padding: 0;
       margin: 0; }
-    .how-to-care-introduction .about-care-content .separator {
+    .about-care__introduction .about-care__content .separator {
       background-color: #ffffff; }
-  .how-to-care-introduction p {
+  .about-care__introduction p {
     padding-top: 20px;
     padding-right: 150px;
     margin: 0; }
-  .how-to-care-introduction .about-care-picture {
+  .about-care__introduction .about-care__picture {
     display: inline-block;
     width: 40%;
     margin: 0;
     padding: 0; }
-    .how-to-care-introduction .about-care-picture img {
+    .about-care__introduction .about-care__picture img {
       display: inline-block;
       width: 100%; }
 
-.how-to-care-transplanting {
+.how-to-care__transplanting {
   display: block;
   position: relative;
   padding: 280px 0;
   margin: 0;
   font-size: 0; }
-  .how-to-care-transplanting .transplanting-picture {
+  .how-to-care__transplanting .transplanting__picture {
     display: inline-block;
     width: 40%;
     margin: 0;
     padding: 200px 0; }
-    .how-to-care-transplanting .transplanting-picture img {
+    .how-to-care__transplanting .transplanting__picture img {
       width: 100%;
       margin: 0;
       padding: 0; }
-  .how-to-care-transplanting .transplanting-content {
+  .how-to-care__transplanting .transplanting__content {
     width: 60%;
     float: right;
     padding-top: 80px;
     padding-left: 200px;
     margin: 0; }
-    .how-to-care-transplanting .transplanting-content p {
+    .how-to-care__transplanting .transplanting__content p {
       padding: 20px 0;
       margin: 0; }
 
-.how-to-care-water {
+.how-to-care__water {
   display: block;
   position: relative;
   padding: 200px 0;
   margin: 0;
   font-size: 0;
   background-color: #e9e4e8; }
-  .how-to-care-water .water-content {
+  .how-to-care__water .water__content {
     display: inline-block;
     width: 50%;
     padding-right: 200px;
     margin: 0;
     font-size: 0; }
-    .how-to-care-water .water-content .separator {
+    .how-to-care__water .water__content .separator {
       background-color: #1b1b1b; }
-    .how-to-care-water .water-content p {
+    .how-to-care__water .water__content p {
       margin: 0;
       padding: 20px 0; }
-  .how-to-care-water .water-picture {
+  .how-to-care__water .water__picture {
     display: block;
     position: relative;
     width: 50%;
     margin: 0;
     padding: 0;
     float: right; }
-    .how-to-care-water .water-picture img {
+    .how-to-care__water .water__picture img {
       width: 80%;
       margin: 0;
       padding: 0; }
 
-.how-to-care-diseases {
-  display: block;
-  position: relative;
-  padding: 280px 0;
-  margin: 0;
-  font-size: 0; }
-  .how-to-care-diseases .diseases-picture {
-    display: inline-block;
-    width: 40%;
-    margin: 0;
-    padding: 200px 0; }
-    .how-to-care-diseases .diseases-picture img {
-      width: 100%;
-      margin: 0;
-      padding: 0; }
-  .how-to-care-diseases .diseases-content {
-    width: 60%;
-    float: right;
-    padding-top: 80px;
-    padding-left: 200px;
-    margin: 0; }
-    .how-to-care-diseases .diseases-content p {
-      padding: 20px 0;
-      margin: 0; }
-
-.how-to-care-fertilization {
+.how-to-care__fertilization {
   display: block;
   position: relative;
   padding: 100px 0;
   margin: 0;
   font-size: 0; }
-  .how-to-care-fertilization .fertilization-content {
+  .how-to-care__fertilization .fertilization__content {
     padding: 20px 0;
     margin: 0; }
-    .how-to-care-fertilization .fertilization-content p {
+    .how-to-care__fertilization .fertilization__content p {
       padding: 20px 0;
       margin: 0; }
-  .how-to-care-fertilization .fertilization-boxes {
+  .how-to-care__fertilization .fertilization__boxes {
     display: inline-block;
     position: relative;
     width: 100%;
     margin: 50px auto;
     padding: 10px 0; }
-    .how-to-care-fertilization .fertilization-boxes .fertilization-box {
+    .how-to-care__fertilization .fertilization__boxes .fertilization__box {
       display: inline-block;
       border: 1px #1b1b1b solid;
       width: 30%;
@@ -1055,45 +1030,45 @@ footer {
       height: 400px;
       width: 400px;
       text-align: center; }
-    .how-to-care-fertilization .fertilization-boxes h3 {
+    .how-to-care__fertilization .fertilization__boxes h3 {
       display: inline-block;
       padding-top: 40px;
       padding-bottom: 20px;
       text-align: justify; }
-    .how-to-care-fertilization .fertilization-boxes p {
+    .how-to-care__fertilization .fertilization__boxes p {
       padding: 10px 40px;
       margin: 0 auto;
       font-size: 16px; }
-    .how-to-care-fertilization .fertilization-boxes .cactus-box-picture {
+    .how-to-care__fertilization .fertilization__boxes .cactus-box__picture {
       margin: 0 auto;
       padding: 0px;
       width: 50%;
       height: 50%;
       bottom: 0; }
-      .how-to-care-fertilization .fertilization-boxes .cactus-box-picture img {
+      .how-to-care__fertilization .fertilization__boxes .cactus-box__picture img {
         padding-right: 20px; }
 
-.how-to-care-disease {
+.how-to-care__diseases {
   display: block;
   position: relative;
   padding: 280px 0;
   margin: 0;
   font-size: 0; }
-  .how-to-care-disease .disease-picture {
+  .how-to-care__diseases .diseases__picture {
     display: inline-block;
     width: 40%;
     margin: 0;
     padding: 200px 0; }
-    .how-to-care-disease .disease-picture img {
+    .how-to-care__diseases .diseases__picture img {
       width: 100%;
       margin: 0;
       padding: 0; }
-  .how-to-care-disease .disease-content {
+  .how-to-care__diseases .diseases__content {
     width: 60%;
     float: right;
     padding-top: 80px;
     padding-left: 200px;
     margin: 0; }
-    .how-to-care-disease .disease-content p {
+    .how-to-care__diseases .diseases__content p {
       padding: 20px 0;
       margin: 0; }

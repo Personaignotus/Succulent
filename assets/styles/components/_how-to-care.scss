@@ -1,5 +1,5 @@
-//indtorduction-about care
-.how-to-care-introduction{
+//indtorduction-about
+.about-care__introduction{
     display: flex;
     position: relative;
     padding: 0;
@@ -7,14 +7,14 @@
     background-color: $third-background-color;
     font-size: 0;
 
-    .about-care-content{
+    .about-care__content{
         display: inline-block;
         padding-top: 150px;
         width: 60%;
         float: left;
 
         
-        .about-care-title{
+        .about-care__title{
             padding: 0;
             margin: 0;
             }
@@ -30,7 +30,7 @@
             margin: 0;
         } 
 
-    .about-care-picture{
+    .about-care__picture{
         display: inline-block;
         width: 40%;
         margin: 0;
@@ -44,7 +44,7 @@
 }
 
 //transplanting
-.how-to-care-transplanting{
+.how-to-care__transplanting{
     display: block;
     position: relative;
     padding: 280px 0;
@@ -52,7 +52,7 @@
     font-size: 0;
 
 
-    .transplanting-picture{
+    .transplanting__picture{
         display: inline-block;
         width: 40%;
         margin: 0;
@@ -65,7 +65,7 @@
         }
     }
 
-    .transplanting-content{
+    .transplanting__content{
         width: 60%;
         float: right;
         padding-top: 80px;
@@ -81,7 +81,7 @@
 }
 
 //water
-.how-to-care-water{
+.how-to-care__water{
     display: block;
     position: relative;
     padding: 200px 0;
@@ -89,7 +89,7 @@
     font-size: 0;
     background-color: $second-background-color;
 
-    .water-content{
+    .water__content{
         display: inline-block;
         width: 50%;
         padding-right: 200px;
@@ -106,7 +106,7 @@
         }
     }
 
-    .water-picture{
+    .water__picture{
         display: block;
         position: relative;
         width: 50%;
@@ -122,51 +122,16 @@
     }
 }
 
-//diseases
-.how-to-care-diseases{
-    display: block;
-    position: relative;
-    padding: 280px 0;
-    margin: 0;
-    font-size: 0;
-
-
-    .diseases-picture{
-        display: inline-block;
-        width: 40%;
-        margin: 0;
-        padding: 200px 0;
-
-        img{
-            width: 100%;
-            margin: 0;
-            padding: 0;
-        }
-    }
-
-    .diseases-content{
-        width: 60%;
-        float: right;
-        padding-top: 80px;
-        padding-left: 200px;
-        margin: 0;
-        
-        p{
-            padding: 20px 0;
-            margin: 0;
-        }
-    }
-}
 
 //fertilization
-.how-to-care-fertilization{
+.how-to-care__fertilization{
     display: block;
     position: relative;
     padding: 100px 0;
     margin: 0;
     font-size: 0;
 
-    .fertilization-content{
+    .fertilization__content{
         padding: 20px 0;
         margin: 0;
 
@@ -176,14 +141,14 @@
         }
     }
 
-    .fertilization-boxes{
+    .fertilization__boxes{
         display: inline-block;
         position: relative;
         width: 100%;
         margin: 50px auto;
         padding: 10px 0;
 
-        .fertilization-box{
+        .fertilization__box{
             display: inline-block;
             border: 1px $primary-font-color solid;
             width: 30%;
@@ -206,7 +171,7 @@
             font-size: 16px;
         }
 
-        .cactus-box-picture{
+        .cactus-box__picture{
             margin: 0 auto;
             padding: 0px;
             width: 50%;
@@ -220,8 +185,9 @@
     }
 }
 
-//disease
-.how-to-care-disease{
+
+//diseases
+.how-to-care__diseases{
     display: block;
     position: relative;
     padding: 280px 0;
@@ -229,7 +195,7 @@
     font-size: 0;
 
 
-    .disease-picture{
+    .diseases__picture{
         display: inline-block;
         width: 40%;
         margin: 0;
@@ -242,7 +208,7 @@
         }
     }
 
-    .disease-content{
+    .diseases__content{
         width: 60%;
         float: right;
         padding-top: 80px;
@@ -254,5 +220,6 @@
             margin: 0;
         }
     }
-    
 }
+
+//propagation
