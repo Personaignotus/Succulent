@@ -693,7 +693,7 @@ footer {
   padding: 0;
   margin: 0;
   list-style: none;
-  background-color: rgba(233, 228, 232, 0.7);
+  background-color: rgba(233, 228, 232, 0.8);
   z-index: 1000;
   scroll-behavior: smooth;
   visibility: visible;
@@ -720,7 +720,7 @@ footer {
   text-align: center; }
 
 .menu-nav__nav-roll:hover {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.4);
   padding: 20px 0; }
 
 .menu-nav__nav-roll a {
