@@ -1,194 +1,83 @@
-//about-care
-.about-care__introduction{
+.section-how-to-care{
     display: flex;
-    position: relative;
-    padding: 0;
-    margin-top: 250px;
-    background-color: $third-background-color;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
     font-size: 0;
+}
 
-    .about-care__content{
-        display: inline-block;
-        padding-top: 150px;
-        width: 60%;
-        float: left;
+//about-care
+.about-care__container{
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+    padding: 0;
+    margin: 0;
+    background-color: bisque;
+    overflow: hidden;
+}
 
-        
-        .about-care__title{
-            padding: 0;
-            margin: 0;
-            }
+.about-care__container__text-content{
+    display: inline-block;
+    padding: 0 20px;
+    margin: 0;
+    max-width: 40%;
+    background-color: rgb(218, 243, 128);
+}
+    
+.about-care__container__picture-content{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 40%;
+    background-color: pink;
+    z-index: 1000;
+}
 
-            .separator{
-                background-color: $first-background-color;
-            }
-        }
-
-        p{
-            padding-top: 20px;
-            padding-right: 150px;
-            margin: 0;
-        } 
-
-    .about-care__picture{
-        display: inline-block;
-        width: 40%;
-        margin: 0;
-        padding: 0;
-        
-        img{
-        display: inline-block;
-        width: 100%;
-        }
-    }
+.about-care__container__picture-box{
+    max-width: 200px;
+    max-height: 200px;
+    background-color: green;
 }
 
 //transplanting
-.how-to-care__transplanting{
-    display: block;
-    position: relative;
-    padding: 280px 0;
-    margin: 0;
-    font-size: 0;
+.how-to-care__transplanting-one{
+    color: $secondary-font-color;
+    background-image: url("../images/transplanting.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.6;
+}
 
-
-    .transplanting__picture{
-        display: inline-block;
-        width: 40%;
-        margin: 0;
-        padding: 200px 0;
-
-        img{
-            width: 100%;
-            margin: 0;
-            padding: 0;
-        }
-    }
-
-    .transplanting__content{
-        width: 60%;
-        float: right;
-        padding-top: 80px;
-        padding-left: 200px;
-        margin: 0;
-        
-        p{
-            padding: 20px 0;
-            margin: 0;
-        }
-    }
-    
+.how-to-care__transplanting-two{
+    background-color: $first-background-color;
 }
 
 //water
 .how-to-care__water{
-    display: block;
     position: relative;
-    padding: 200px 0;
+    padding: 0;
     margin: 0;
     font-size: 0;
     background-color: $second-background-color;
-
-    .water__content{
-        display: inline-block;
-        width: 50%;
-        padding-right: 200px;
-        margin: 0;
-        font-size: 0;
-
-        .separator{
-            background-color: $primary-font-color;
-        }
-
-        p{
-            margin: 0;
-            padding: 20px 0;
-        }
-    }
-
-    .water__picture{
-        display: block;
-        position: relative;
-        width: 50%;
-        margin: 0;
-        padding: 0;
-        float: right;
-
-        img{
-            width: 80%;
-            margin: 0;
-            padding: 0;
-        }
-    }
 }
 
 
 //fertilization
 .how-to-care__fertilization{
-    display: block;
     position: relative;
-    padding: 100px 0;
+    padding: 0;
     margin: 0;
     font-size: 0;
-
-    .fertilization__content{
-        padding: 20px 0;
-        margin: 0;
-
-        p{
-            padding: 20px 0;
-            margin: 0;
-        }
-    }
-
-    .fertilization__boxes{
-        display: inline-block;
-        position: relative;
-        width: 100%;
-        margin: 50px auto;
-        padding: 10px 0;
-
-        .fertilization__box{
-            display: inline-block;
-            border: 1px $primary-font-color solid;
-            width: 30%;
-            margin: auto;
-            height: 400px;
-            width: 400px;
-            text-align: center;
-        }
-
-        h3{
-            display: inline-block;
-            padding-top: 40px;
-            padding-bottom: 20px;
-            text-align: justify;
-        }
-
-        p{
-            padding: 10px 40px;
-            margin: 0 auto;
-            font-size: 16px;
-        }
-
-        .cactus-box__picture{
-            margin: 0 auto;
-            padding: 0px;
-            width: 50%;
-            height: 50%;
-            bottom: 0;
-            
-            img{
-                padding-right: 20px;
-            }
-        }
-    }
 }
 
 
 //diseases
 .how-to-care__diseases{
-    display: block;
     position: relative;
     padding: 280px 0;
     margin: 0;
