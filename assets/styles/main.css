@@ -348,13 +348,15 @@ template {
     transform: translateY(-20px); } }
 
 body {
+  display: block;
   margin: 0;
   padding: 0;
   font-size: 22px;
   line-height: 32px;
   font-family: 'Montserrat', sans-serif;
   color: #1b1b1b;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  scroll-behavior: smooth; }
 
 .main-content {
   display: block;
@@ -377,8 +379,7 @@ body {
   background-size: 100%;
   font-weight: bold;
   font-size: 0;
-  cursor: pointer;
-  scroll-behavior: smooth; }
+  cursor: pointer; }
 
 .btn-introduction:hover {
   opacity: 1;
@@ -754,7 +755,9 @@ footer {
 .introduction {
   width: 100%;
   margin: 0 auto;
-  padding: 20px 20px 90px 20px; }
+  padding: 20px 20px 90px 20px;
+  display: block;
+  scroll-behavior: smooth; }
   .introduction .introduction-heading {
     display: block;
     margin: auto;
