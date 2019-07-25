@@ -368,7 +368,7 @@ body {
   width: 80px;
   height: 80px;
   margin: auto;
-  margin-top: 40px;
+  margin-top: 20px;
   padding: 0;
   opacity: 0.4;
   z-index: 2;
@@ -682,7 +682,8 @@ footer {
   margin-bottom: 10px;
   vertical-align: center;
   text-decoration: none;
-  color: #1b1b1b; }
+  color: #1b1b1b;
+  font-size: 18px; }
 
 .menu-nav__li-menu-nav a:hover {
   color: rgba(0, 0, 0, 0.3); }
@@ -709,9 +710,9 @@ footer {
 .menu-nav__nav-roll {
   display: block;
   position: relative;
-  padding: 20px 0;
+  padding: 10px 0;
   margin-top: 10px;
-  max-width: 265px;
+  max-width: 250px;
   text-decoration: none;
   font-size: 20px;
   color: #1b1b1b;
@@ -720,12 +721,12 @@ footer {
   text-align: center; }
 
 .menu-nav__nav-roll:hover {
-  background-color: rgba(0, 0, 0, 0.4);
-  padding: 20px 0; }
+  background-color: rgba(0, 0, 0, 0.2); }
 
 .menu-nav__nav-roll a {
-  padding: 20px 50px;
-  margin: 0; }
+  padding: 0 30px;
+  margin: 0;
+  font-size: 16px; }
 
 .menu-nav__nav-roll:hover a {
   color: #ffffff;
@@ -749,7 +750,7 @@ footer {
 .introduction {
   width: 100%;
   margin: 0 auto;
-  padding: 20px 20px 100px 20px; }
+  padding: 20px 20px 90px 20px; }
   .introduction .introduction-heading {
     display: block;
     margin: auto;

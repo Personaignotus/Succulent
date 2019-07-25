@@ -42,6 +42,7 @@
     vertical-align: center;  
     text-decoration: none;
     color: $primary-font-color;
+    font-size: 18px;
 }
 
 .menu-nav__li-menu-nav a:hover{
@@ -74,9 +75,9 @@
 .menu-nav__nav-roll{
     display: block;
     position: relative;
-    padding: 20px 0;
+    padding: 10px 0;
     margin-top: 10px;
-    max-width: 265px;
+    max-width: 250px;
     text-decoration: none;
     font-size: 20px;
     color: $primary-font-color;
@@ -86,13 +87,14 @@
 }
 
 .menu-nav__nav-roll:hover{
-    background-color: rgba(0, 0, 0, 0.4);
-    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .menu-nav__nav-roll a{
-    padding: 20px 50px;
+    padding: 0 30px;
     margin: 0;
+    font-size: 16px;
+
 }
 
 .menu-nav__nav-roll:hover a{
