@@ -678,8 +678,8 @@ footer {
   cursor: pointer; }
 
 .menu-nav__li-menu-nav a {
-  padding: 0px 20px;
-  margin-bottom: 100px;
+  padding: 0 20px;
+  margin-bottom: 10px;
   vertical-align: center;
   text-decoration: none;
   color: #1b1b1b; }
@@ -689,9 +689,9 @@ footer {
 
 .how-to-care-menu, .health-and-beauty-menu {
   display: block;
-  position: absolute;
+  position: relative;
   padding: 0;
-  margin: 10px 0;
+  margin: 0;
   list-style: none;
   background-color: rgba(233, 228, 232, 0.7);
   z-index: 1000;
@@ -709,16 +709,23 @@ footer {
 .menu-nav__nav-roll {
   display: block;
   position: relative;
-  padding: 5px 20px;
+  padding: 20px 0;
   margin: 0;
+  max-width: 260px;
   text-decoration: none;
   font-size: 20px;
   color: #1b1b1b;
   z-index: 1000;
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;
+  text-align: center; }
 
 .menu-nav__nav-roll:hover {
-  background-color: rgba(0, 0, 0, 0.2); }
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 20px 0; }
+
+.menu-nav__nav-roll a {
+  padding: 20px 50px;
+  margin: 0; }
 
 .menu-nav__nav-roll:hover a {
   color: #ffffff;
