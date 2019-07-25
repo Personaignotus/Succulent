@@ -377,7 +377,8 @@ body {
   background-size: 100%;
   font-weight: bold;
   font-size: 0;
-  cursor: pointer; }
+  cursor: pointer;
+  scroll-behavior: smooth; }
 
 .btn-introduction:hover {
   opacity: 1;
@@ -674,12 +675,13 @@ footer {
   vertical-align: top;
   text-align: center;
   text-decoration: none;
-  font-size: 22px;
+  font-family: 'Playfair Display', serif;
+  font-size: 26px;
   cursor: pointer; }
 
 .menu-nav__li-menu-nav a {
   padding: 0 30px;
-  margin-bottom: 10px;
+  margin: 0;
   vertical-align: center;
   text-decoration: none;
   color: #1b1b1b;
@@ -711,7 +713,7 @@ footer {
   display: block;
   position: relative;
   padding: 10px 0;
-  margin-top: 10px;
+  margin-top: 0;
   max-width: 250px;
   text-decoration: none;
   font-size: 20px;
@@ -721,7 +723,8 @@ footer {
   text-align: center; }
 
 .menu-nav__nav-roll:hover {
-  background-color: rgba(0, 0, 0, 0.2); }
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: background-color 0.4s ease-in-out; }
 
 .menu-nav__nav-roll a {
   padding: 0 30px;
@@ -737,7 +740,7 @@ footer {
   float: right;
   padding-top: 20px;
   padding-right: 20px;
-  font-size: 18px; }
+  font-size: 16px; }
 
 .search-menu__input[aria-label="search-aria-label"] {
   padding: 14px 12px 14px 50px;
