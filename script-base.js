@@ -1,4 +1,4 @@
-//preloader
+// preloader
 // var preload = document.getElementsByClassName('preload')[0];
 
 // preload.classList.add('show-preloader');
