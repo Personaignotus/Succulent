@@ -1094,3 +1094,27 @@ footer {
 .fertilization__box--image {
   width: 200px;
   height: 120px; }
+
+.how-to-care__diseases {
+  position: relative;
+  padding: 280px 0;
+  margin: 0;
+  font-size: 0; }
+  .how-to-care__diseases .diseases__picture {
+    display: inline-block;
+    width: 40%;
+    margin: 0;
+    padding: 200px 0; }
+    .how-to-care__diseases .diseases__picture img {
+      width: 100%;
+      margin: 0;
+      padding: 0; }
+  .how-to-care__diseases .diseases__content {
+    width: 60%;
+    float: right;
+    padding-top: 80px;
+    padding-left: 200px;
+    margin: 0; }
+    .how-to-care__diseases .diseases__content p {
+      padding: 20px 0;
+      margin: 0; }
