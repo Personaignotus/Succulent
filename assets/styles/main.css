@@ -594,10 +594,11 @@ h4 {
 
 p {
   padding: 10px 0;
+  margin: 0;
   font-family: 'Montserrat', sans-serif;
   text-align: justify;
   font-size: 18px;
-  line-height: 35px; }
+  line-height: 38px; }
 
 .separator {
   background-color: #1b1b1b;
@@ -948,27 +949,27 @@ footer {
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: 50vh;
+  height: 100vh;
   font-size: 0;
   padding: 0;
   margin: 0; }
 
 .about-care__container__text-content {
   display: inline-block;
-  padding: 50px;
+  padding: 300px 50px;
   margin: 5px;
   max-width: 50%; }
 
 .about-care__container__picture-content {
   display: inline-block;
   margin: 0 auto;
-  padding: 0 0 50px 50px;
+  padding: 150px 50px;
   width: 50%;
   max-height: 100%; }
 
 .about-care-picture {
   width: 700px;
-  height: 450px; }
+  height: 650px; }
 
 .transplanting__content {
   display: flex;
@@ -985,7 +986,7 @@ footer {
   padding: 50px;
   margin: 5px;
   width: 50%;
-  max-height: 70vh;
+  max-height: 100vh;
   text-align: center; }
 
 .transplanting__container-right {
@@ -994,47 +995,48 @@ footer {
   padding: 50px;
   margin: 5px;
   width: 50%;
-  max-height: 70vh;
-  text-align: center; }
+  max-height: 100vh;
+  text-align: cnter; }
 
 .transplanting__container__text-content {
   align-self: flex-start;
   height: 50%;
   margin: 0 auto;
-  padding: 0 30px; }
+  padding: 0; }
 
 .transplanting__container__picture-content {
   align-self: flex-end;
   margin: 0 auto;
-  padding: 30px 0;
+  padding: 0;
+  padding-top: 20px;
   width: 100%;
   height: 50%; }
 
 .transplanting-picture {
   margin: 0 auto;
   padding: 0;
-  width: 650px;
-  height: 400px; }
+  width: 600px;
+  height: 550px; }
 
 .water__container {
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   font-size: 0;
   padding: 0;
   margin: 0; }
 
 .water__container__text-content {
   display: inline-block;
-  padding: 50px;
+  padding: 150px 50px 150px 30px;
   margin: 5px;
   max-width: 50%; }
 
 .water__container__picture-content {
   display: block;
   margin: 0 auto;
-  padding: 200px 0;
+  padding: 150px 0;
   width: 50%;
   max-height: 100%;
   text-align: center; }
@@ -1042,5 +1044,53 @@ footer {
 .water-picture {
   margin: 0 auto;
   padding: 0;
-  width: 650px;
-  height: 500px; }
+  width: 500px;
+  height: 750px; }
+
+.how-to-care__fertilization {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  font-size: 0;
+  padding: 0;
+  margin: 0; }
+
+.fertilization__content {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 50px 30px 50px;
+  height: 50%; }
+
+.fertilization__boxes {
+  display: flex;
+  flex-direction: row;
+  padding: 30px 50px 50px 50px;
+  height: 45%; }
+
+.fertilization__box {
+  display: block;
+  border: 1px black solid;
+  padding: 30px;
+  margin: 0 30px;
+  text-align: center; }
+
+.fertilization__box--title {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Playfair Display', serif; }
+
+.fertilization__box--picture {
+  padding-bottom: 30px; }
+
+.fertilization__box--paragraph {
+  padding: 25px 0;
+  text-align: center;
+  font-size: 16px;
+  line-height: 30px; }
+
+.fertilization__box--image {
+  width: 200px;
+  height: 120px; }
