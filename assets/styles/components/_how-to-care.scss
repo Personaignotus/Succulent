@@ -34,14 +34,14 @@
     max-height: 100%;
 }
 
-.about-care-picture{
+.about-care__container__picture-content__image{
     width: 700px;
     height: 650px;
 }
 
 //transplanting
 
-.transplanting__content{
+.transplanting__container{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -50,7 +50,17 @@
     height: 100vh;
     font-size: 0;
 }
-.transplanting__container-left{
+
+.transplanting__container__right{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    margin: 5px;
+    width: 50%;
+    max-height: 100vh;
+}
+
+.transplanting__container__left{
     display: flex;
     flex-direction: column;    
     padding: 50px;
@@ -58,16 +68,6 @@
     width: 50%;
     max-height: 100vh;
     text-align: center;
-}
-
-.transplanting__container-right{
-    display: flex;
-    flex-direction: column;
-    padding: 50px;
-    margin: 5px;
-    width: 50%;
-    max-height: 100vh;
-    text-align: cnter;
 }
 
 .transplanting__container__text-content{
@@ -86,7 +86,7 @@
     height: 50%;
 }
 
-.transplanting-picture{
+.transplanting__container__left__picture-content__image{
     margin: 0 auto;
     padding: 0;
     width: 600px;
@@ -103,12 +103,7 @@
     padding: 0;
     margin: 0;
 }
-.water__container__text-content{
-    display: inline-block;
-    padding: 150px 50px 150px 30px;
-    margin: 5px;
-    max-width: 50%;
-}
+
 .water__container__picture-content{
     display: block;
     margin: 0 auto;
@@ -117,13 +112,20 @@
     max-height: 100%;
     text-align: center;
 }
-.water-picture{
+
+.water__container__picture-content__image{
     margin: 0 auto;
     padding: 0;
     width: 500px;
     height: 750px;
 }
 
+.water__container__text-content{
+    display: inline-block;
+    padding: 150px 50px 150px 30px;
+    margin: 5px;
+    max-width: 50%;
+}
     
 //fertilization
 .how-to-care__fertilization{
@@ -136,30 +138,29 @@
     margin: 0;
 }
 
-.fertilization__content{
+.fertilization__container__text-content{
     display: flex;
     flex-direction: column;
     padding: 100px 50px 30px 50px;
     height: 50%;
 }
 
-.fertilization__boxes{
+.fertilization__container__boxes{
     display: flex;
     flex-direction: row;
     padding: 30px 50px 50px 50px;
     height: 45%;
 }
 
-.fertilization__box{
+.fertilization__container__boxes__box{
     display: block;
     border: 1px black solid;
     padding: 30px;
     margin: 0 30px;
     text-align: center;
-
 }
 
-.fertilization__box--title{
+.fertilization__container__boxes__box__title{
     padding: 0;
     margin: 0;
     text-align: center;
@@ -167,55 +168,69 @@
     font-family: 'Playfair Display', serif;
 }
 
-.fertilization__box--picture{
-    padding-bottom: 30px;
-}
-
-.fertilization__box--paragraph{
+.fertilization__container__boxes__box__paragraph{
     padding: 25px 0;
     text-align: center;
     font-size: 16px;
     line-height: 30px;
 }
 
-.fertilization__box--image{
+.fertilization__container__boxes__box__picture--1{
+    height: 140px;
+    background-image: url("../images/cactus-box-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fertilization__container__boxes__box__picture--2{
+    height: 140px;
+    background-image: url("../images/cactus-box-2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fertilization__container__boxes__box__picture--3{
+    height: 140px;
+    background-image: url("../images/cactus-box-3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fertilization__container__boxes__box__picture__image{
     width: 200px;
-    height:120px;
+    height: 120px;
 }
 
 //diseases
 .how-to-care__diseases{
-    position: relative;
-    padding: 280px 0;
-    margin: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
     font-size: 0;
-
-
-    .diseases__picture{
-        display: inline-block;
-        width: 40%;
-        margin: 0;
-        padding: 200px 0;
-
-        img{
-            width: 100%;
-            margin: 0;
-            padding: 0;
-        }
-    }
-
-    .diseases__content{
-        width: 60%;
-        float: right;
-        padding-top: 80px;
-        padding-left: 200px;
-        margin: 0;
-        
-        p{
-            padding: 20px 0;
-            margin: 0;
-        }
-    }
+    padding: 0;
+    margin: 0;
 }
+
+.diseases__container__text-content{
+    display: inline-block;
+    padding: 300px 50px;
+    margin: 5px;
+    max-width: 50%;
+}
+    
+.diseases__container__picture-content{
+    display: inline-block;
+    margin: 0 auto;
+    padding: 150px 50px;
+    width: 50%;
+    max-height: 100%;
+}
+
+.diseases__container__picture-content__image{
+    width: 700px;
+    height: 650px;
+}
+
 
 //propagation
