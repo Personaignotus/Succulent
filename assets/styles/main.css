@@ -1058,13 +1058,13 @@ footer {
 .fertilization__text-container {
   display: flex;
   flex-direction: column;
-  padding: 90px 50px 20px 50px;
+  padding: 110px 50px 20px 50px;
   height: 50%; }
 
 .fertilization__boxes-container {
   display: flex;
   flex-direction: row;
-  padding: 20px 50px 60px 50px;
+  padding: 20px 50px 80px 50px;
   height: 45%; }
 
 .fertilization__boxes-container__box {
@@ -1088,19 +1088,19 @@ footer {
   line-height: 30px; }
 
 .fertilization__boxes-container__box__picture--1 {
-  height: 140px;
+  height: 130px;
   background-image: url("../images/cactus-box-1.jpg");
   background-position: center;
   background-repeat: no-repeat; }
 
 .fertilization__boxes-container__box__picture--2 {
-  height: 140px;
+  height: 130px;
   background-image: url("../images/cactus-box-2.jpg");
   background-position: center;
   background-repeat: no-repeat; }
 
 .fertilization__boxes-container__box__picture--3 {
-  height: 140px;
+  height: 130px;
   background-image: url("../images/cactus-box-3.jpg");
   background-position: center;
   background-repeat: no-repeat; }
