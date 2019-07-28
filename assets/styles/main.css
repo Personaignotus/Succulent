@@ -708,6 +708,12 @@ footer {
   transform-origin: 50% 0;
   transition: 0.5s; }
 
+.how-to-care-menu {
+  right: 425px; }
+
+.health-and-beauty-menu {
+  right: 204px; }
+
 .how-to-care:hover .how-to-care-menu,
 .health-and-beauty:hover .health-and-beauty-menu {
   visibility: visible;

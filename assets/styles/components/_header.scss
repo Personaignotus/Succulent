@@ -61,11 +61,17 @@
     background-color: rgba(233, 228, 232, 0.8);
     z-index: 1000;
     scroll-behavior: smooth;
-
     visibility:visible;
     transform:scaleY(0);
     transform-origin:50% 0;
     transition: 0.5s;
+}
+.how-to-care-menu{
+    right: 425px;
+}
+
+.health-and-beauty-menu{
+    right: 204px;
 }
 
 .how-to-care:hover .how-to-care-menu,
