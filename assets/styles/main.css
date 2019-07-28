@@ -602,7 +602,7 @@ p {
 
 .separator {
   background-color: #1b1b1b;
-  width: 90px;
+  width: 80px;
   height: 2px;
   margin: 20px 0;
   padding: 0; }
@@ -945,7 +945,7 @@ footer {
   height: 100vh;
   font-size: 0; }
 
-.about-care__container {
+.section-care-for {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -954,24 +954,24 @@ footer {
   padding: 0;
   margin: 0; }
 
-.about-care__container__text-content {
+.care-for__text-container {
   display: inline-block;
-  padding: 300px 50px;
+  padding: 0 50px;
   margin: 5px;
   max-width: 50%; }
 
-.about-care__container__picture-content {
+.care-for__picture-container {
   display: inline-block;
   margin: 0 auto;
   padding: 150px 50px;
   width: 50%;
   max-height: 100%; }
 
-.about-care__container__picture-content__image {
+.care-for__picture-container__image {
   width: 700px;
   height: 650px; }
 
-.transplanting__container {
+.section-transplanting {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -980,7 +980,7 @@ footer {
   height: 100vh;
   font-size: 0; }
 
-.transplanting__container__right {
+.transplanting__right-container {
   display: flex;
   flex-direction: column;
   padding: 50px;
@@ -988,7 +988,7 @@ footer {
   width: 50%;
   max-height: 100vh; }
 
-.transplanting__container__left {
+.transplanting__left-container {
   display: flex;
   flex-direction: column;
   padding: 50px;
@@ -997,13 +997,7 @@ footer {
   max-height: 100vh;
   text-align: center; }
 
-.transplanting__container__text-content {
-  align-self: flex-start;
-  height: 50%;
-  margin: 0 auto;
-  padding: 0; }
-
-.transplanting__container__picture-content {
+.transplanting__left-container__picture-container {
   align-self: flex-end;
   margin: 0 auto;
   padding: 0;
@@ -1011,13 +1005,19 @@ footer {
   width: 100%;
   height: 50%; }
 
-.transplanting__container__left__picture-content__image {
+.transplanting__left-container__picture-container__image {
   margin: 0 auto;
   padding: 0;
   width: 600px;
   height: 550px; }
 
-.water__container {
+.transplanting__left-container__text-container {
+  align-self: flex-start;
+  height: 50%;
+  margin: 0 auto;
+  padding: 0; }
+
+.section-water {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -1026,7 +1026,7 @@ footer {
   padding: 0;
   margin: 0; }
 
-.water__container__picture-content {
+.water__picture-container {
   display: block;
   margin: 0 auto;
   padding: 150px 0;
@@ -1034,19 +1034,19 @@ footer {
   max-height: 100%;
   text-align: center; }
 
-.water__container__picture-content__image {
+.water__picture-container__image {
   margin: 0 auto;
   padding: 0;
   width: 500px;
   height: 750px; }
 
-.water__container__text-content {
+.water__text-container {
   display: inline-block;
   padding: 150px 50px 150px 30px;
   margin: 5px;
   max-width: 50%; }
 
-.how-to-care__fertilization {
+.section-fertilization {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -1055,51 +1055,51 @@ footer {
   padding: 0;
   margin: 0; }
 
-.fertilization__container__text-content {
+.fertilization__text-container {
   display: flex;
   flex-direction: column;
-  padding: 100px 50px 30px 50px;
+  padding: 90px 50px 20px 50px;
   height: 50%; }
 
-.fertilization__container__boxes {
+.fertilization__boxes-container {
   display: flex;
   flex-direction: row;
-  padding: 30px 50px 50px 50px;
+  padding: 20px 50px 60px 50px;
   height: 45%; }
 
-.fertilization__container__boxes__box {
+.fertilization__boxes-container__box {
   display: block;
   border: 1px black solid;
   padding: 30px;
   margin: 0 30px;
   text-align: center; }
 
-.fertilization__container__boxes__box__title {
+.fertilization__boxes-container__box__title {
   padding: 0;
   margin: 0;
   text-align: center;
   font-size: 30px;
   font-family: 'Playfair Display', serif; }
 
-.fertilization__container__boxes__box__paragraph {
+.fertilization__boxes-container__box__paragraph {
   padding: 25px 0;
   text-align: center;
   font-size: 16px;
   line-height: 30px; }
 
-.fertilization__container__boxes__box__picture--1 {
+.fertilization__boxes-container__box__picture--1 {
   height: 140px;
   background-image: url("../images/cactus-box-1.jpg");
   background-position: center;
   background-repeat: no-repeat; }
 
-.fertilization__container__boxes__box__picture--2 {
+.fertilization__boxes-container__box__picture--2 {
   height: 140px;
   background-image: url("../images/cactus-box-2.jpg");
   background-position: center;
   background-repeat: no-repeat; }
 
-.fertilization__container__boxes__box__picture--3 {
+.fertilization__boxes-container__box__picture--3 {
   height: 140px;
   background-image: url("../images/cactus-box-3.jpg");
   background-position: center;
@@ -1109,7 +1109,7 @@ footer {
   width: 200px;
   height: 120px; }
 
-.how-to-care__diseases {
+.section-diseases {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -1118,19 +1118,45 @@ footer {
   padding: 0;
   margin: 0; }
 
-.diseases__container__text-content {
+.diseases__text-container {
   display: inline-block;
   padding: 300px 50px;
   margin: 5px;
   max-width: 50%; }
 
-.diseases__container__picture-content {
+.diseases__picture-container {
   display: inline-block;
   margin: 0 auto;
   padding: 150px 50px;
   width: 50%;
   max-height: 100%; }
 
-.diseases__container__picture-content__image {
+.diseases__picture-container__image {
+  width: 700px;
+  height: 500px; }
+
+.section-propagation {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+  font-size: 0;
+  padding: 0;
+  margin: 0; }
+
+.propagation__text-container {
+  display: inline-block;
+  padding: 300px 50px;
+  margin: 5px;
+  max-width: 50%; }
+
+.propagation__picture-container {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 150px 50px;
+  width: 50%;
+  max-height: 100%; }
+
+.propagation__picture-container__image {
   width: 700px;
   height: 650px; }
