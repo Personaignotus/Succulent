@@ -65,7 +65,7 @@
 .gallery__photo-20{background-image: url("../images/gallery/photo-20-small.jpg")}
 .gallery__photo-21{background-image: url("../images/gallery/photo-21-small.jpg")}
 
-.gallery__photo-inner{
+.gallery__photo-box__inner{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,19 +75,20 @@
     height: 100%;
 }
 
-.gallery__photo-inner:hover{
+.gallery__photo-box__inner:hover{
     background-color: rgba(0, 0, 0, 0.6);
     transition: 0.6s ease-in-out;
 
 }
 
-.gallery__photo-inner:hover .gallery__photo-title{
+.gallery__photo-box__inner:hover 
+.gallery__photo-box__inner__content__text__title{
     display: block;
     visibility: visible;
     opacity: 1;
 }
 
-.gallery__photo-content{
+.gallery__photo-box__inner__content{
     display:block;
     position: relative;
     max-width: 100%;
@@ -95,7 +96,7 @@
     padding: 40px;
 }
 
-.gallery__photo-text{
+.gallery__photo-box__inner__content__text{
     display: block;
     position: relative;
     margin: 0 auto;
@@ -103,7 +104,7 @@
     text-align: center;
 }
 
-.gallery__photo-title{
+.gallery__photo-box__inner__content__text__title{
     display: block;
     position: relative;
     padding: 15px 20px;
