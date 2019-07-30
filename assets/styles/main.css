@@ -1181,3 +1181,39 @@ p {
 .propagation__picture-container__image {
   width: 650px;
   height: 650px; }
+
+.side-nav-container {
+  position: fixed;
+  list-style-type: none;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  top: 400px; }
+
+.side-nav-container__li {
+  line-height: 22px;
+  opacity: 0.5;
+  cursor: pointer; }
+
+.side-nav-container__li:hover,
+.active-side-nav {
+  opacity: 1; }
+
+.side-nav-container__li:before {
+  font-family: 'Alegreya', serif;
+  font-weight: normal;
+  content: "|";
+  padding: 0;
+  margin-right: 4px;
+  margin-left: -20px;
+  font-size: 30px;
+  opacity: 0.5; }
+
+.side-nav-container__li:hover:before,
+.active-side-nav {
+  font-weight: bold;
+  opacity: 0.8; }
+
+.side-nav-container__li__a {
+  color: #1b1b1b;
+  text-decoration: none; }
