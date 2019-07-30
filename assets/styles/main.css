@@ -1182,24 +1182,24 @@ p {
   width: 650px;
   height: 650px; }
 
-.side-nav-container {
+.side-nav-ul {
   position: fixed;
   list-style-type: none;
   font-size: 10px;
   text-transform: uppercase;
-  font-weight: bold;
   top: 400px; }
 
-.side-nav-container__li {
+.side-nav-ul__li {
   line-height: 22px;
   opacity: 0.5;
   cursor: pointer; }
 
-.side-nav-container__li:hover,
+.side-nav-ul__li:hover,
 .active-side-nav {
-  opacity: 1; }
+  opacity: 1;
+  font-weight: bold; }
 
-.side-nav-container__li:before {
+.side-nav-ul__li:before {
   font-family: 'Alegreya', serif;
   font-weight: normal;
   content: "|";
@@ -1209,11 +1209,11 @@ p {
   font-size: 30px;
   opacity: 0.5; }
 
-.side-nav-container__li:hover:before,
+.side-nav-ul__li:hover:before,
 .active-side-nav {
   font-weight: bold;
   opacity: 0.8; }
 
-.side-nav-container__li__a {
+.side-nav-ul__li__a {
   color: #1b1b1b;
   text-decoration: none; }
