@@ -17,8 +17,8 @@ for (var i = 0; i < scrollToTopTriggers.length; i++) {
         easyScroll({
             'scrollableDomEle': window,
             'direction': 'top',
-            'duration': 1000,
-            'easingPreset': 'easeInQuad',
+            'duration': 100,
+            'easingPreset': 'linear',
             'scrollAmount': top
         });
     });
