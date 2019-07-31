@@ -31,7 +31,7 @@
                 <ul class="menu-nav">
                     <li class="menu-nav__li-menu-nav"><a href="succulent-gallery.html">Succulent gallery</a></li>
                     <li class="menu-nav__li-menu-nav how-to-care"><a href="how-to-care.html">How to care</a>
-                        <ul class="how-to-care-menu">
+                        <ul class="how-to-care__menu-nav">
                             <li class="menu-nav__nav-roll"><a href="how-to-care.html#Transplanting">transplanting</a></li>
                             <li class="menu-nav__nav-roll"><a href="how-to-care.html#Water">water</a></li>
                             <li class="menu-nav__nav-roll"><a href="how-to-care.html#Fertilization">fertilization</a></li>
@@ -40,7 +40,7 @@
                         </ul>
                     </li>
                     <li class="menu-nav__li-menu-nav health-and-beauty"><a href="health-and-beauty.html">Health and beauty</a>
-                        <ul class="health-and-beauty-menu">
+                        <ul class="health-and-beauty__menu-nav">
                             <li class="menu-nav__nav-roll"><a href="">aloes property</a></li>
                             <li class="menu-nav__nav-roll"><a href="">fresh air</a></li>
                         </ul>
@@ -94,17 +94,17 @@
  
             </div>
         
-            <a class="btn-introduction" href="#start-introduction"></a>
+            <a class="btn-introduction" href="#introduction"></a>
 
-            <div class="introduction" id="start-introduction">
-                <h2 class="introduction-heading">Few words about us</h2>
+            <div class="introduction" id="introduction">
+                <h2 class="introduction__heading">Few words about us</h2>
                 <div class="separator"></div>
-                <p class="introduction-paragraph paragraph-one">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, incidunt assumenda asperiores aliquam accusantium excepturi. Culpa, commodi ducimus molestiae asperiores consequuntur alias, dicta tempore qui aliquam pariatur id quis saepe odio minima laboriosam hic earum officia obcaecati debitis blanditiis? Earum eaque doloribus molestias. Praesentium, ex. Libero harum nobis earum nemo odit doloribus ex animi sint dolores ducimus aliquam neque eum, repellendus soluta ullam aspernatur obcaecati unde. Molestias, nisi placeat.</p>
+                <p class="introduction__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, incidunt assumenda asperiores aliquam accusantium excepturi. Culpa, commodi ducimus molestiae asperiores consequuntur alias, dicta tempore qui aliquam pariatur id quis saepe odio minima laboriosam hic earum officia obcaecati debitis blanditiis? Earum eaque doloribus molestias. Praesentium, ex. Libero harum nobis earum nemo odit doloribus ex animi sint dolores ducimus aliquam neque eum, repellendus soluta ullam aspernatur obcaecati unde. Molestias, nisi placeat.</p>
                 
-                <div class="introduction-ctn">
-                    <p class="introduction-paragraph paragraph-two">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt, esse? Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti mollitia itaque expedita eum. Fugit esse sit minima voluptates modi eos! Quasi recusandae minima numquam iusto saepe dolorum excepturi ipsum quo nam, molestias magni ullam consequuntur in iste maxime corporis cupiditate! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores ducimus eveniet alias veniam pariatur? Accusamus commodi molestiae qui debitis voluptas quasi ex, omnis voluptates doloribus reprehenderit totam corporis, atque et ipsa odio laudantium ducimus ea voluptatem, veniam fugit? Nemo, architecto! Fuga quas eius similique reprehenderit officia ducimus iusto aperiam animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, temporibus in totam doloribus veritatis neque tempore aut distinctio, optio iusto eius illo alias culpa facere maxime ipsa facilis aliquam tenetur voluptatibus quas ducimus, aperiam commodi molestias sit? Et quisquam possimus, cum numquam, ducimus impedit, assumenda repellat perspiciatis illum aliquam optio facere non libero. Sed quae ipsum ducimus voluptas temporibus, facere labore molestias blanditiis eum officiis assumenda iure.</p>
-                    <figure class="picture-plants-box">
-                        <img class="picture-plants" src="assets/images/plants.jpg"/>
+                <div class="introduction__container">
+                    <p class="introduction__container__paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt, esse? Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti mollitia itaque expedita eum. Fugit esse sit minima voluptates modi eos! Quasi recusandae minima numquam iusto saepe dolorum excepturi ipsum quo nam, molestias magni ullam consequuntur in iste maxime corporis cupiditate! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores ducimus eveniet alias veniam pariatur? Accusamus commodi molestiae qui debitis voluptas quasi ex, omnis voluptates doloribus reprehenderit totam corporis, atque et ipsa odio laudantium ducimus ea voluptatem, veniam fugit? Nemo, architecto! Fuga quas eius similique reprehenderit officia ducimus iusto aperiam animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, temporibus in totam doloribus veritatis neque tempore aut distinctio, optio iusto eius illo alias culpa facere maxime ipsa facilis aliquam tenetur voluptatibus quas ducimus, aperiam commodi molestias sit? Et quisquam possimus, cum numquam, ducimus impedit, assumenda repellat perspiciatis illum aliquam optio facere non libero. Sed quae ipsum ducimus voluptas temporibus, facere labore molestias blanditiis eum officiis assumenda iure.</p>
+                    <figure class="introduction__container__picture-box">
+                        <img class="introduction__container__picture-box__image" src="assets/images/plants.jpg"/>
                     </figure>
                 </div>
                 
@@ -117,36 +117,37 @@
 
         </div>
 
-        <footer>
+        <footer class="footer">
             <div class="main-content">
 
                 <div class="social-media">
-                    <p class="follow-social">FOLLOW US ON SOCIAL MEDIA</p>
-                    <figure>
-                        <img class="img-social-media" src="assets/images/facebook.png"/>
-                        <figcaption class="figcaption-social-media">Facebook</figcaption>
+                    <p class="social-media__heading">FOLLOW US ON SOCIAL MEDIA</p>
+
+                    <figure class="social-media__button">
+                        <img class="social-media__image" src="assets/images/facebook.png"/>
+                        <figcaption class="social-media__designation">Facebook</figcaption>
                     </figure>
 
-                    <figure>
-                        <img class="img-social-media" src="assets/images/instagram.png"/>
-                        <figcaption class="figcaption-social-media">Instagram</figcaption>
+                    <figure class="social-media__button">
+                        <img class="social-media__image" src="assets/images/instagram.png"/>
+                        <figcaption class="social-media__designation">Instagram</figcaption>
                     </figure>
 
-                    <figure>
-                        <img class="img-social-media" src="assets/images/pinterest.png"/>
-                        <figcaption class="figcaption-social-media">Pinterest</figcaption>
+                    <figure class="social-media__button">
+                        <img class="social-media__image" src="assets/images/pinterest.png"/>
+                        <figcaption class="social-media__designation">Pinterest</figcaption>
                     </figure>
                 </div>
 
                 <hr class="footer-hr">
-                <p class="footer-txt">&copy <span class="footerYear"></span> Succulent. All rights reserved.</p>
+                <p class="footer-text">&copy <span class="footerYear"></span> Succulent. All rights reserved.</p>
             
             </div>
         </footer>
         
         <script src="https://unpkg.com/easy-scroll"></script>
-        <script src="script-base.js"></script>
-        <script src="script-slider.js"></script>
+        <script src="base.js"></script>
+        <script src="slider.js"></script>
     
     </body>
 </html>

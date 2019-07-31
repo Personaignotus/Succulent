@@ -28,15 +28,3 @@ for (var i = 0; i < scrollToTopTriggers.length; i++) {
 var currentSlideYearSelector = document.querySelector(".footerYear");
 var currentSlideYear = new Date().getFullYear();
 currentSlideYearSelector.textContent = currentSlideYear;
-
-//slider
-let sliderImages = document.querySelectorAll('.slider__slide');
-let arrowLeft = document.querySelector('.arrow-left');
-let arrowRight = document.querySelector('.arrow-right');
-let dots = document.querySelectorAll('.button-slider-menu__button-dot');
-
-const resetImages = function(){
-    for (let i = 0; i < sliderImages.length; i++){
-        sliderImages[i].style.display = 'none';
-    }
-};

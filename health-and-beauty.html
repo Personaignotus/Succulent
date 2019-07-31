@@ -5,7 +5,7 @@
         <meta charset="utf-8"> 
         <meta name="description" content="All about succulents"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <title>Succulent</title>
+        <title>Succulent | Health and beauty</title>
         <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">  
@@ -31,7 +31,7 @@
                 <ul class="menu-nav">
                     <li class="menu-nav__li-menu-nav"><a href="succulent-gallery.html">Succulent gallery</a></li>
                     <li class="menu-nav__li-menu-nav how-to-care"><a href="how-to-care.html">How to care</a>
-                        <ul class="how-to-care-menu">
+                        <ul class="how-to-care__menu-nav">
                             <li class="menu-nav__nav-roll"><a href="how-to-care.html#Transplanting">transplanting</a></li>
                             <li class="menu-nav__nav-roll"><a href="how-to-care.html#Water">water</a></li>
                             <li class="menu-nav__nav-roll"><a href="how-to-care.html#Fertilization">fertilization</a></li>
@@ -40,7 +40,7 @@
                         </ul>
                     </li>
                     <li class="menu-nav__li-menu-nav health-and-beauty"><a href="health-and-beauty.html">Health and beauty</a>
-                        <ul class="health-and-beauty-menu">
+                        <ul class="health-and-beauty__menu-nav">
                             <li class="menu-nav__nav-roll"><a href="">aloes property</a></li>
                             <li class="menu-nav__nav-roll"><a href="">fresh air</a></li>
                         </ul>
@@ -60,33 +60,36 @@
 
         </div>
 
-        <footer>
+        <footer class="footer">
+            <div class="main-content">
+
+                <div class="social-media">
+                    <p class="social-media__heading">FOLLOW US ON SOCIAL MEDIA</p>
+
+                    <figure class="social-media__button">
+                        <img class="social-media__image" src="assets/images/facebook.png"/>
+                        <figcaption class="social-media__designation">Facebook</figcaption>
+                    </figure>
+
+                    <figure class="social-media__button">
+                        <img class="social-media__image" src="assets/images/instagram.png"/>
+                        <figcaption class="social-media__designation">Instagram</figcaption>
+                    </figure>
+
+                    <figure class="social-media__button">
+                        <img class="social-media__image" src="assets/images/pinterest.png"/>
+                        <figcaption class="social-media__designation">Pinterest</figcaption>
+                    </figure>
+                </div>
+
+                <hr class="footer-hr">
+                <p class="footer-text">&copy <span class="footerYear"></span> Succulent. All rights reserved.</p>
             
-            <div class="social-media">
-                <p class="follow-social">FOLLOW US ON SOCIAL MEDIA</p>
-                <figure>
-                    <img class="img-social-media" src="assets/images/facebook.png"/>
-                    <figcaption class="figcaption-social-media">Facebook</figcaption>
-                </figure>
-
-                <figure>
-                    <img class="img-social-media" src="assets/images/instagram.png"/>
-                    <figcaption class="figcaption-social-media">Instagram</figcaption>
-                </figure>
-
-                <figure>
-                    <img class="img-social-media" src="assets/images/pinterest.png"/>
-                    <figcaption class="figcaption-social-media">Pinterest</figcaption>
-                </figure>
             </div>
-            <hr class="footer-hr">
-            <p class="footer-txt">&copy <span class="footerYear"></span> Succulent. All rights reserved.</p>
         </footer>
-        
 
         <script src="https://unpkg.com/easy-scroll"></script>
-        <script src="script-base.js"></script>
-        <script src="script-slider.js"></script>
+        <script src="base.js"></script>
     
     </body>
 </html>

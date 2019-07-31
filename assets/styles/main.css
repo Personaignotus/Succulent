@@ -355,8 +355,7 @@ body {
   line-height: 32px;
   font-family: 'Montserrat', sans-serif;
   color: #1b1b1b;
-  background-color: #ffffff;
-  scroll-behavior: smooth; }
+  background-color: #ffffff; }
 
 .main-content {
   display: block;
@@ -607,7 +606,7 @@ p {
   margin: 20px 0;
   padding: 0; }
 
-footer {
+.footer {
   display: block;
   position: relative;
   height: 500px;
@@ -618,35 +617,43 @@ footer {
   font-size: 22px;
   color: #1b1b1b;
   background-color: #e9e4e8; }
-  footer .social-media {
-    padding: 30px 0;
-    margin: 0 auto;
-    width: 600px; }
-    footer .social-media .follow-social {
-      text-align: center;
-      font-family: 'Alegreya', serif; }
-  footer .social-media figure {
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 0; }
-    footer .social-media figure .img-social-media {
-      display: inline-block;
-      margin: 0 auto;
-      width: 50px;
-      height: auto;
-      cursor: pointer; }
-    footer .social-media figure .img-social-media:hover {
-      opacity: 0.5; }
-    footer .social-media figure .figcaption-social-media {
-      padding-top: 10px;
-      font-size: 14px;
-      font-weight: bold;
-      cursor: pointer; }
-  footer .footer-hr {
-    width: 800px; }
-  footer .footer-txt {
-    padding: 30px 0;
-    text-align: center; }
+
+.social-media {
+  padding: 30px 0;
+  margin: 0 auto;
+  width: 600px; }
+
+.social-media__heading {
+  text-align: center;
+  font-family: 'Alegreya', serif; }
+
+.social-media__button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0; }
+
+.social-media__image {
+  display: inline-block;
+  margin: 0 auto;
+  width: 50px;
+  height: auto;
+  cursor: pointer; }
+
+.social-media__image:hover {
+  opacity: 0.5; }
+
+.social-media__designation {
+  padding-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer; }
+
+.footer-hr {
+  width: 800px; }
+
+.footer-text {
+  padding: 30px 0;
+  text-align: center; }
 
 .header-menu {
   display: inline-block;
@@ -694,7 +701,7 @@ footer {
 .menu-nav__li-menu-nav a:hover {
   color: rgba(0, 0, 0, 0.3); }
 
-.how-to-care-menu, .health-and-beauty-menu {
+.how-to-care__menu-nav, .health-and-beauty__menu-nav {
   display: block;
   position: absolute;
   padding: 0;
@@ -708,8 +715,14 @@ footer {
   transform-origin: 50% 0;
   transition: 0.5s; }
 
-.how-to-care:hover .how-to-care-menu,
-.health-and-beauty:hover .health-and-beauty-menu {
+.how-to-care__menu-nav {
+  right: 425px; }
+
+.health-and-beauty__menu-nav {
+  right: 204px; }
+
+.how-to-care:hover .how-to-care__menu-nav,
+.health-and-beauty:hover .health-and-beauty__menu-nav {
   visibility: visible;
   transform: scaleY(1); }
 
@@ -760,39 +773,45 @@ footer {
   padding: 20px 20px 90px 20px;
   display: block;
   scroll-behavior: smooth; }
-  .introduction .introduction-heading {
-    display: block;
-    margin: auto;
-    padding-top: 50px;
-    opacity: 0.8; }
-  .introduction .paragraph-one {
-    margin: 0;
-    padding: 15px 0; }
-  .introduction .introduction-ctn {
-    display: block;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    font-size: 0; }
-    .introduction .introduction-ctn .paragraph-two {
-      display: inline-block;
-      width: 65%;
-      margin: 0;
-      padding-top: 30px;
-      padding-right: 60px;
-      vertical-align: top; }
-    .introduction .introduction-ctn .picture-plants-box {
-      display: inline-block;
-      width: 35%;
-      margin: 0;
-      padding-right: 30px;
-      text-align: center;
-      vertical-align: top; }
-      .introduction .introduction-ctn .picture-plants-box .picture-plants {
-        height: 500px;
-        width: auto;
-        padding: 0;
-        margin: 0; }
+
+.introduction__heading {
+  display: block;
+  margin: auto;
+  padding-top: 50px;
+  opacity: 0.8; }
+
+.introduction__paragraph {
+  margin: 0;
+  padding: 15px 0; }
+
+.introduction__container {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 0; }
+
+.introduction__container__paragraph {
+  display: inline-block;
+  width: 65%;
+  margin: 0;
+  padding-top: 30px;
+  padding-right: 60px;
+  vertical-align: top; }
+
+.introduction__container__picture-box {
+  display: inline-block;
+  width: 35%;
+  margin: 0;
+  padding-right: 30px;
+  text-align: center;
+  vertical-align: top; }
+
+.introduction__container__picture-box__image {
+  height: 500px;
+  width: auto;
+  padding: 0;
+  margin: 0; }
 
 .main-content-gallery {
   padding: 50px 200px;
@@ -894,7 +913,7 @@ footer {
 .gallery__photo-21 {
   background-image: url("../images/gallery/photo-21-small.jpg"); }
 
-.gallery__photo-inner {
+.gallery__photo-box__inner {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -903,30 +922,31 @@ footer {
   width: 100%;
   height: 100%; }
 
-.gallery__photo-inner:hover {
+.gallery__photo-box__inner:hover {
   background-color: rgba(0, 0, 0, 0.6);
   transition: 0.6s ease-in-out; }
 
-.gallery__photo-inner:hover .gallery__photo-title {
+.gallery__photo-box__inner:hover
+.gallery__photo-box__inner__content__text__title {
   display: block;
   visibility: visible;
   opacity: 1; }
 
-.gallery__photo-content {
+.gallery__photo-box__inner__content {
   display: block;
   position: relative;
   max-width: 100%;
   max-height: 100%;
   padding: 40px; }
 
-.gallery__photo-text {
+.gallery__photo-box__inner__content__text {
   display: block;
   position: relative;
   margin: 0 auto;
   padding: 0;
   text-align: center; }
 
-.gallery__photo-title {
+.gallery__photo-box__inner__content__text__title {
   display: block;
   position: relative;
   padding: 15px 20px;
@@ -1058,13 +1078,13 @@ footer {
 .fertilization__text-container {
   display: flex;
   flex-direction: column;
-  padding: 90px 50px 20px 50px;
+  padding: 110px 50px 20px 50px;
   height: 50%; }
 
 .fertilization__boxes-container {
   display: flex;
   flex-direction: row;
-  padding: 20px 50px 60px 50px;
+  padding: 20px 50px 80px 50px;
   height: 45%; }
 
 .fertilization__boxes-container__box {
@@ -1088,19 +1108,19 @@ footer {
   line-height: 30px; }
 
 .fertilization__boxes-container__box__picture--1 {
-  height: 140px;
+  height: 130px;
   background-image: url("../images/cactus-box-1.jpg");
   background-position: center;
   background-repeat: no-repeat; }
 
 .fertilization__boxes-container__box__picture--2 {
-  height: 140px;
+  height: 130px;
   background-image: url("../images/cactus-box-2.jpg");
   background-position: center;
   background-repeat: no-repeat; }
 
 .fertilization__boxes-container__box__picture--3 {
-  height: 140px;
+  height: 130px;
   background-image: url("../images/cactus-box-3.jpg");
   background-position: center;
   background-repeat: no-repeat; }
@@ -1160,3 +1180,35 @@ footer {
 .propagation__picture-container__image {
   width: 650px;
   height: 650px; }
+
+.side-nav-ul {
+  position: fixed;
+  list-style-type: none;
+  font-size: 10px;
+  text-transform: uppercase;
+  top: 400px; }
+
+.side-nav-ul__a__li {
+  line-height: 22px;
+  font-weight: bold;
+  cursor: pointer;
+  opacity: 0.001; }
+
+.side-nav-ul__a__li:before:hover,
+.active-side-nav {
+  opacity: 1; }
+
+.side-nav-ul__a__li:before {
+  visibility: visible;
+  font-family: 'Alegreya', serif;
+  font-weight: normal;
+  content: "|";
+  padding: 0;
+  margin-right: 4px;
+  margin-left: -20px;
+  font-size: 30px;
+  opacity: 0.6; }
+
+.side-nav-ul__a {
+  color: #1b1b1b;
+  text-decoration: none; }

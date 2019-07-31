@@ -1,10 +1,20 @@
+let sliderImages = document.querySelectorAll('.slider__slide');
+let arrowLeft = document.querySelector('.arrow-left');
+let arrowRight = document.querySelector('.arrow-right');
+let dots = document.querySelectorAll('.button-slider-menu__button-dot');
+
+const resetImages = function(){
+    for (let i = 0; i < sliderImages.length; i++){
+        sliderImages[i].style.display = 'none';
+    }
+};
+
 const resetDots = function(){
     for (let i = 0; i < dots.length; i++){
         dots[i].classList.remove('active-dot');
         }
     };
 
-// start-slider
 const startSlide = function() {
     resetImages();
     sliderImages[0].style.display = 'block';

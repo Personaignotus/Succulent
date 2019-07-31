@@ -52,7 +52,7 @@
 }
 
 //menu roll
-.how-to-care-menu, .health-and-beauty-menu{
+.how-to-care__menu-nav, .health-and-beauty__menu-nav{
     display: block;
     position: absolute;
     padding: 0;
@@ -61,15 +61,21 @@
     background-color: rgba(233, 228, 232, 0.8);
     z-index: 1000;
     scroll-behavior: smooth;
-
     visibility:visible;
     transform:scaleY(0);
     transform-origin:50% 0;
     transition: 0.5s;
 }
+.how-to-care__menu-nav{
+    right: 425px;
+}
 
-.how-to-care:hover .how-to-care-menu,
-.health-and-beauty:hover .health-and-beauty-menu{
+.health-and-beauty__menu-nav{
+    right: 204px;
+}
+
+.how-to-care:hover .how-to-care__menu-nav,
+.health-and-beauty:hover .health-and-beauty__menu-nav{
     visibility: visible;
     transform:scaleY(1);
 }
@@ -97,7 +103,6 @@
     padding: 0 30px;
     margin: 0;
     font-size: 16px;
-
 }
 
 .menu-nav__nav-roll:hover a{
