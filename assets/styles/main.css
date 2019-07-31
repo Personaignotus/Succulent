@@ -355,8 +355,7 @@ body {
   line-height: 32px;
   font-family: 'Montserrat', sans-serif;
   color: #1b1b1b;
-  background-color: #ffffff;
-  scroll-behavior: smooth; }
+  background-color: #ffffff; }
 
 .main-content {
   display: block;
@@ -1181,3 +1180,35 @@ p {
 .propagation__picture-container__image {
   width: 650px;
   height: 650px; }
+
+.side-nav-ul {
+  position: fixed;
+  list-style-type: none;
+  font-size: 10px;
+  text-transform: uppercase;
+  top: 400px; }
+
+.side-nav-ul__a__li {
+  line-height: 22px;
+  font-weight: bold;
+  cursor: pointer;
+  opacity: 0.001; }
+
+.side-nav-ul__a__li:before:hover,
+.active-side-nav {
+  opacity: 1; }
+
+.side-nav-ul__a__li:before {
+  visibility: visible;
+  font-family: 'Alegreya', serif;
+  font-weight: normal;
+  content: "|";
+  padding: 0;
+  margin-right: 4px;
+  margin-left: -20px;
+  font-size: 30px;
+  opacity: 0.6; }
+
+.side-nav-ul__a {
+  color: #1b1b1b;
+  text-decoration: none; }
