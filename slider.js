@@ -105,18 +105,18 @@ dots[3].addEventListener('click', function(){
 
 
 //automat-slider
-var slideIndex = 0;
+// var slideIndex = 0;
 
-function showSlides() {
-    for (let i = 0; i < sliderImages.length; i++) {
-    sliderImages[i].style.display = "none"; 
-    dots[i].classList.remove('active-dot');
-    }
-    slideIndex++;
-    if (slideIndex > sliderImages.length) {slideIndex = 1} 
-    sliderImages[slideIndex-1].style.display = "block"; 
-    dots[slideIndex-1].classList.add('active-dot');
-    setTimeout(showSlides, 5000);
-};
+// function showSlides() {
+//     for (let i = 0; i < sliderImages.length; i++) {
+//     sliderImages[i].style.display = "none"; 
+//     dots[i].classList.remove('active-dot');
+//     }
+//     slideIndex++;
+//     if (slideIndex > sliderImages.length) {slideIndex = 1} 
+//     sliderImages[slideIndex-1].style.display = "block"; 
+//     dots[slideIndex-1].classList.add('active-dot');
+//     setTimeout(showSlides, 5000);
+// };
 
-showSlides();
+// showSlides();

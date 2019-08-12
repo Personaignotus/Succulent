@@ -67,7 +67,7 @@
     transition: 0.5s;
 }
 .how-to-care__menu-nav{
-    right: 425px;
+    right: 420px;
 }
 
 .health-and-beauty__menu-nav{
@@ -85,7 +85,7 @@
     position: relative;
     padding: 10px 0px;
     margin-top: 0;
-    width: 190px;
+    width: 200px;
     text-decoration: none;
     font-size: 20px;
     color: $primary-font-color;
@@ -95,7 +95,7 @@
 }
 
 .menu-nav__nav-roll:hover{
-    width: 190px;
+    width: 200px;
     background-color: rgba(0, 0, 0, 0.3);
     transition: background-color 0.4s ease-in-out;
 }
