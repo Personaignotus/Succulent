@@ -3,7 +3,8 @@
     list-style-type: none;
     font-size: 10px;
     text-transform: uppercase;
-    top: 400px;
+    top: 35vh;
+    z-index: 1000;
 }
 
 .side-nav-ul__li{
@@ -23,11 +24,11 @@
     margin-left: -20px;
     font-size: 30px;
     line-height: 24px;
-    opacity: 0.4;
+    opacity: 0.3;
 }
 
 .side-nav-ul__li__a{
-    opacity: 0;
+    opacity: 0.3;
     text-decoration: none;
     color: $primary-font-color;
 }
