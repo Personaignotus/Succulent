@@ -347,6 +347,9 @@ template {
   20% {
     transform: translateY(-20px); } }
 
+html {
+  scroll-behavior: smooth; }
+
 body {
   display: block;
   margin: 0;
@@ -729,9 +732,9 @@ p {
 .menu-nav__nav-roll {
   display: block;
   position: relative;
-  padding: 10px 0;
+  padding: 10px 0px;
   margin-top: 0;
-  max-width: 250px;
+  width: 190px;
   text-decoration: none;
   font-size: 20px;
   color: #1b1b1b;
@@ -740,12 +743,13 @@ p {
   text-align: center; }
 
 .menu-nav__nav-roll:hover {
+  width: 190px;
   background-color: rgba(0, 0, 0, 0.3);
   transition: background-color 0.4s ease-in-out; }
 
 .menu-nav__nav-roll a {
   padding: 0 30px;
-  margin: 0;
+  margin: 0 auto;
   font-size: 16px; }
 
 .menu-nav__nav-roll:hover a {
@@ -770,7 +774,7 @@ p {
 .introduction {
   width: 100%;
   margin: 0 auto;
-  padding: 20px 20px 90px 20px;
+  padding: 20px 20px 60px 20px;
   display: block;
   scroll-behavior: smooth; }
 
@@ -1186,7 +1190,8 @@ p {
   list-style-type: none;
   font-size: 10px;
   text-transform: uppercase;
-  top: 400px; }
+  top: 35vh;
+  z-index: 1000; }
 
 .side-nav-ul__li {
   padding: 0;
@@ -1204,10 +1209,10 @@ p {
   margin-left: -20px;
   font-size: 30px;
   line-height: 24px;
-  opacity: 0.4; }
+  opacity: 0.3; }
 
 .side-nav-ul__li__a {
-  opacity: 0;
+  opacity: 0.3;
   text-decoration: none;
   color: #1b1b1b; }
 
