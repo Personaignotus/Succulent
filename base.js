@@ -1,13 +1,3 @@
-// preloader
-// var preload = document.getElementsByClassName('preload')[0];
-
-// preload.classList.add('show-preloader');
-// window.addEventListener('load', function () {
-//     setTimeout(function () {
-//         preload.classList.remove('show-preloader');
-//     }, 1500);
-// });
-
 //scroll-to-top
 // var scrollToTopTriggers = document.querySelectorAll('.scroll-to-top__btn');
 // for (var i = 0; i < scrollToTopTriggers.length; i++) {

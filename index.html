@@ -14,7 +14,7 @@
     </head>
 
     <body>
-
+        
         <div class="preload">
             <div class="circles-group">
                 <div class="circle"></div>
@@ -23,6 +23,16 @@
                 <div class="circle"></div>
             </div>
         </div>
+        <script>
+            var preload = document.getElementsByClassName('preload')[0];
+
+            preload.classList.add('show-preloader');
+            window.addEventListener('load', function () {
+                setTimeout(function () {
+                    preload.classList.remove('show-preloader');
+                }, 1500);
+            });
+        </script>
 
         <div class="main-content">
             <header class="header-menu" id="top">
@@ -148,6 +158,6 @@
         <script src="https://unpkg.com/easy-scroll"></script>
         <script src="base.js"></script>
         <script src="slider.js"></script>
-    
+ 
     </body>
 </html>

@@ -23,6 +23,16 @@
                 <div class="circle"></div>
             </div>
         </div>
+        <script>
+            var preload = document.getElementsByClassName('preload')[0];
+
+            preload.classList.add('show-preloader');
+            window.addEventListener('load', function () {
+                setTimeout(function () {
+                    preload.classList.remove('show-preloader');
+                }, 1500);
+            });
+        </script>
 
         <ul class="side-nav-ul">
             
