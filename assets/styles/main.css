@@ -603,7 +603,7 @@ p {
   line-height: 38px; }
 
 .separator {
-  background-color: #1b1b1b;
+  background-color: rgba(3, 3, 3, 0.7);
   width: 80px;
   height: 2px;
   margin: 20px 0;
@@ -742,7 +742,6 @@ p {
   text-align: center; }
 
 .menu-nav__nav-roll:hover {
-  width: 200px;
   background-color: rgba(0, 0, 0, 0.3);
   transition: background-color 0.4s ease-in-out; }
 
@@ -1221,3 +1220,76 @@ p {
 .side-nav-ul__li:hover::before,
 .active-side-nav::before {
   opacity: 1; }
+
+@media only screen and (min-width: 1300px) and (max-width: 1366px) {
+  .main-content {
+    width: 98%; }
+  .btn-introduction {
+    width: 70px; }
+  .scroll-to-top__btn {
+    width: 70px; }
+  .scroll-to-top__text {
+    padding: 5px 0; }
+  .logo-menu {
+    margin-top: 5px;
+    margin-left: 30px;
+    width: 200px; }
+  .menu-nav {
+    padding-top: 20px;
+    margin: 0;
+    right: 300px; }
+  .menu-nav__li-menu-nav {
+    margin-right: 50px; }
+  .menu-nav__li-menu-nav a {
+    padding: 0;
+    font-size: 16px; }
+  .how-to-care__menu-nav {
+    right: 390px; }
+  .health-and-beauty__menu-nav {
+    right: 200px; }
+  .menu-nav__nav-roll {
+    width: 175px; }
+  .menu-nav__nav-roll a {
+    font-size: 14px; }
+  .search-menu__input[aria-label="search-aria-label"] {
+    width: 270px;
+    margin-right: 20px; }
+  .slider-container {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 600px; }
+  .slider__slide-span {
+    font-size: 30px;
+    line-height: 38px; }
+  .slide1 .slider__slide-content {
+    padding: 270px 700px 200px 0; }
+  .slide2 .slider__slide-content {
+    padding: 100px 500px 600px 0px; }
+  .slide3 .slider__slide-content {
+    padding: 260px 0px 160px 650px; }
+  .slide4 .slider__slide-content {
+    padding-top: 220px; }
+  .introduction__container__paragraph {
+    width: 60%; }
+  h1 {
+    font-size: 54px;
+    line-height: 70px; }
+  h2 {
+    font-size: 40px; }
+  h3 {
+    font-size: 32px; }
+  p {
+    font-size: 16px; }
+  .footer {
+    height: 400px; }
+  .social-media {
+    padding: 20px 0; }
+  .social-media__image {
+    width: 40px; }
+  .social-media__designation {
+    padding-top: 5px;
+    font-size: 12px; }
+  .footer-text {
+    padding: 20px 0;
+    font-size: 16px; } }

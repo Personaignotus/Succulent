@@ -65,6 +65,7 @@
     transform-origin:50% 0;
     transition: 0.5s;
 }
+
 .how-to-care__menu-nav{
     right: 420px;
 }
@@ -94,7 +95,6 @@
 }
 
 .menu-nav__nav-roll:hover{
-    width: 200px;
     background-color: rgba(0, 0, 0, 0.3);
     transition: background-color 0.4s ease-in-out;
 }
@@ -120,9 +120,9 @@
 }
 
 .search-menu__input[aria-label="search-aria-label"]{
-padding: 14px 12px 14px 50px;
-width: 300px;
-background: url(../images/search.png) no-repeat scroll 9px 9px;
+    padding: 14px 12px 14px 50px;
+    width: 300px;
+    background: url(../images/search.png) no-repeat scroll 9px 9px;
 }
 
 .search-menu__input[aria-label="search-aria-label"]:focus{
