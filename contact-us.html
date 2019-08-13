@@ -30,7 +30,7 @@
             window.addEventListener('load', function () {
                 setTimeout(function () {
                     preload.classList.remove('show-preloader');
-                }, 0);
+                }, 800);
             });
         </script>
 
@@ -62,9 +62,9 @@
                     <input class="search-menu__input" name="search" type=text placeholder="Search on succulent.com" aria-label="search-aria-label">
                 </form>
             </header>
-
+        </div>
+        <div class="contact-content">
             <section class="contact-details-section">
-
                 <div class="contact-details-section__text-container">
                     <h2 class="contact-details-section__text-container__title">Contact us</h2>
                     <div class="separator"></div>
@@ -73,18 +73,50 @@
                 <div class="contact-details-section__map-container">
                     <iframe class="contact-details-section__map-container__google-map" src="https://www.google.com/maps/place/Sopot+Monte+Cassino+b%2F+gara%C5%BCu/@54.4435636,18.5624945,16.47z/data=!4m5!3m4!1s0x46fd0a91ca1bf0b5:0x631497e823292215!8m2!3d54.4435111!4d18.5643718https://www.google.com/maps/place/Sopot+Monte+Cassino+b%2F+gara%C5%BCu/@54.4435636,18.5624945,16.47z/data=!4m5!3m4!1s0x46fd0a91ca1bf0b5:0x631497e823292215!8m2!3d54.4435111!4d18.5643718"></iframe>
                 </div>
-
             </section>
                 
             <section class="contact-form-section">
-
+                <h2 class="contact-form-section__title">Do you have a question?</h2>
+                    <form class="contact-form-section__form">
+                        <div class="contact-form-section__form__data">
+                            <div class="contact-form-row">
+                                <label>Your name</label>
+                            </div>
+                            <div class="contact-form-row">
+                                <input name="name" type="text"/>
+                            </div>
+                            <div class="contact-form-row">
+                                <label>Your e-mail</label>
+                            </div>
+                            <div class="contact-form-row">
+                                <input name="e-mail" type="email"/>
+                            </div>
+                            <div class="contact-form-row">
+                                <label>Subject</label>
+                            </div>
+                            <div class="contact-form-row">
+                                <input name="subject" type="text"/>
+                            </div>                   
+                            
+                        </div>
+                        <div class="contact-form-section__form__message">
+                            <div class="contact-form-row">
+                                <label>Message</label>
+                            </div>
+                            <div class="contact-form-row">
+                                <textarea cols="40" rows="8" name="message" placeholder="text to us..."></textarea>
+                            </div>
+                            <div class="contact-form-row">
+                                <input name="submit" type="submit" value="Submit"></input>
+                            </div>
+                        </div>
+                    </form>
             </section>
+        </div>
 
         <div class="scroll-to-top">
             <a class="scroll-to-top__btn" href="#top"></a>
             <div class="scroll-to-top__text">SCROLL TO TOP</div>
-        </div>
-
         </div>
 
         <footer class="footer">
