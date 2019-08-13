@@ -1,0 +1,55 @@
+//ONE 
+.contact-details-section{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 70vh;
+}
+
+
+//left
+.contact-details-section__text-container{
+    position: relative;
+    margin: 0;
+    padding-top: 270px;
+    padding-left: 270px;
+    height: 100%;
+    width: 45%;
+    font-size: 0;
+}
+
+.contact-details-section__text-container__text{
+    line-height: 34px;
+}
+
+//right
+.contact-details-section__map-container{
+    position: relative;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-left: 50px;
+    height: 100%;
+    width: 55%;
+}
+
+//map
+.contact-details-section__map-container__google-map{
+    position: relative;
+    margin: 100px auto;
+    padding: 0;
+    width: 50vh;
+    height: 50vh;
+}
+
+//TWO
+.contact-form-section{
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    height: 70vh;
+    background-color: brown;
+
+}
